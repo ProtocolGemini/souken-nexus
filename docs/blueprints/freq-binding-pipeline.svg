@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<rect x="0.00" y="0.00" width="2400.00" height="1700.00" fill="#071e36" stroke="None" stroke-width="0"/>
+<rect x="36.00" y="36.00" width="2328.00" height="1628.00" fill="None" stroke="#d7f2fb" stroke-width="2.2"/>
+<rect x="48.00" y="48.00" width="2304.00" height="1604.00" fill="None" stroke="#d7f2fb" stroke-width="0.8"/>
+<line x1="48.00" y1="36.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="192.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">1</text>
+<line x1="336.00" y1="36.00" x2="336.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="480.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">2</text>
+<line x1="624.00" y1="36.00" x2="624.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="768.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">3</text>
+<line x1="912.00" y1="36.00" x2="912.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1056.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">4</text>
+<line x1="1200.00" y1="36.00" x2="1200.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1344.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">5</text>
+<line x1="1488.00" y1="36.00" x2="1488.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1632.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1776.00" y1="36.00" x2="1776.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1920.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">7</text>
+<line x1="2064.00" y1="36.00" x2="2064.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="2208.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">8</text>
+<line x1="2352.00" y1="36.00" x2="2352.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<line x1="36.00" y1="48.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="185.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">A</text>
+<line x1="36.00" y1="315.33" x2="48.00" y2="315.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="453.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">B</text>
+<line x1="36.00" y1="582.67" x2="48.00" y2="582.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="720.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">C</text>
+<line x1="36.00" y1="850.00" x2="48.00" y2="850.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="987.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">D</text>
+<line x1="36.00" y1="1117.33" x2="48.00" y2="1117.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1255.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">E</text>
+<line x1="36.00" y1="1384.67" x2="48.00" y2="1384.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1522.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">F</text>
+<line x1="36.00" y1="1652.00" x2="48.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<rect x="1460.00" y="1388.00" width="892.00" height="264.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.4"/>
+<line x1="1460.00" y1="1436.00" x2="2352.00" y2="1436.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1484.00" x2="2352.00" y2="1484.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1544.00" x2="2352.00" y2="1544.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1920.00" y1="1484.00" x2="1920.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="2140.00" y1="1484.00" x2="2140.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1476.00" y="1420.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.4">SOUKEN INDUSTRIES</text>
+<text x="2336.00" y="1420.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY</text>
+<text x="1476.00" y="1466.00" fill="#d7f2fb" font-size="20" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">FREQ  ·  BINDING PIPELINE</text>
+<text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
+<text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">F8BND44027</text>
+<text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">10 OF 11</text>
+<text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
+<text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NONE</text>
+<text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
+<text x="1476.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">S6TNL48290</text>
+<text x="1476.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PHOENIX  ·  UNITS mm  ·  THIRD ANGLE</text>
+<text x="1936.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CURRENT REV</text>
+<text x="1936.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">R8QVN20471</text>
+<text x="1936.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REV DATE  2027-02-17</text>
+<text x="2156.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FLOOR LOG</text>
+<text x="2156.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DARK  2026-12-04</text>
+<text x="2156.00" y="1634.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">INTERNAL DRAWING</text>
+<text x="80.00" y="100.00" fill="#d7f2fb" font-size="22" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.0">VISITOR FREQUENCY, FROM ISSUE TO BIND</text>
+<text x="80.00" y="128.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PROCESSING v4.2.1. THE FREQUENCY IS A SESSION MARK. BINDING IT IS A SEPARATE ACT.</text>
+<rect x="80.00" y="180.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.3"/>
+<circle cx="116.00" cy="216.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="116.00" y="222.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">1</text>
+<text x="148.00" y="222.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">AIRLOCK</text>
+<text x="104.00" y="280.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Identifier checked at airlock 1 of 4.</text>
+<text x="104.00" y="312.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Failure locks the session.</text>
+<text x="104.00" y="360.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<line x1="600.00" y1="295.00" x2="640.00" y2="295.00" stroke="#d7f2fb" stroke-width="1.3" stroke-linecap="square"/>
+<polygon points="640.00,295.00 626.00,288.00 626.00,302.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<rect x="640.00" y="180.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.3"/>
+<circle cx="676.00" cy="216.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="676.00" y="222.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">2</text>
+<text x="708.00" y="222.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">ISSUE</text>
+<text x="664.00" y="280.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Chamber displays the frequency.</text>
+<text x="664.00" y="312.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Window on the chamber is 30:00.</text>
+<text x="664.00" y="360.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<line x1="1160.00" y1="295.00" x2="1200.00" y2="295.00" stroke="#d7f2fb" stroke-width="1.3" stroke-linecap="square"/>
+<polygon points="1200.00,295.00 1186.00,288.00 1186.00,302.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<rect x="1200.00" y="180.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.3"/>
+<circle cx="1236.00" cy="216.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1236.00" y="222.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">3</text>
+<text x="1268.00" y="222.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">RECORD</text>
+<text x="1224.00" y="280.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Transmissions are recorded.</text>
+<text x="1224.00" y="312.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">They are subject to analysis.</text>
+<text x="1224.00" y="360.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<line x1="1720.00" y1="295.00" x2="1760.00" y2="295.00" stroke="#d7f2fb" stroke-width="1.3" stroke-linecap="square"/>
+<polygon points="1760.00,295.00 1746.00,288.00 1746.00,302.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<rect x="1760.00" y="180.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.3"/>
+<circle cx="1796.00" cy="216.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1796.00" y="222.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">4</text>
+<text x="1828.00" y="222.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">CARRY</text>
+<text x="1784.00" y="280.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">The frequency leaves with the visitor.</text>
+<text x="1784.00" y="312.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Desk named: Protocol Gemini.</text>
+<text x="1784.00" y="360.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<rect x="80.00" y="460.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.3"/>
+<circle cx="116.00" cy="496.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="116.00" y="502.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">5</text>
+<text x="148.00" y="502.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">BIND</text>
+<text x="104.00" y="560.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">First logged line binds the session.</text>
+<text x="104.00" y="592.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Until then the mark is unbound.</text>
+<text x="104.00" y="640.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<line x1="600.00" y1="575.00" x2="640.00" y2="575.00" stroke="#d7f2fb" stroke-width="1.3" stroke-linecap="square"/>
+<polygon points="640.00,575.00 626.00,568.00 626.00,582.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<rect x="640.00" y="460.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.3"/>
+<circle cx="676.00" cy="496.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="676.00" y="502.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">6</text>
+<text x="708.00" y="502.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">MONITOR</text>
+<text x="664.00" y="560.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Later lines notify the monitor.</text>
+<text x="664.00" y="592.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">The monitor may still read offline.</text>
+<text x="664.00" y="640.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<line x1="1160.00" y1="575.00" x2="1200.00" y2="575.00" stroke="#d7f2fb" stroke-width="1.3" stroke-linecap="square"/>
+<polygon points="1200.00,575.00 1186.00,568.00 1186.00,582.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<rect x="1200.00" y="460.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#f4e6c4" stroke-width="1.3"/>
+<circle cx="1236.00" cy="496.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1236.00" y="502.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">7</text>
+<text x="1268.00" y="502.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">CLASSIFY</text>
+<text x="1224.00" y="560.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">HUMAN or MACHINE.</text>
+<text x="1224.00" y="592.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">One cell of that table is withheld.</text>
+<text x="1224.00" y="640.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED STEP.</text>
+<line x1="1720.00" y1="575.00" x2="1760.00" y2="575.00" stroke="#d7f2fb" stroke-width="1.3" stroke-linecap="square"/>
+<polygon points="1760.00,575.00 1746.00,568.00 1746.00,582.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<rect x="1760.00" y="460.00" width="520.00" height="230.00" fill="#0c2c4e" stroke="#f4e6c4" stroke-width="1.3"/>
+<circle cx="1796.00" cy="496.00" r="18.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1796.00" y="502.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">8</text>
+<text x="1828.00" y="502.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">MISUSE</text>
+<text x="1784.00" y="560.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">A record is held as a permission.</text>
+<text x="1784.00" y="592.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">The pipeline does not authorize that.</text>
+<text x="1784.00" y="640.00" fill="#f4e6c4" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NOT A RELEASED STEP.</text>
+<rect x="80.00" y="760.00" width="2200.00" height="560.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="100.00" y="796.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BINDING NOTES</text>
+<text x="100.00" y="840.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE CHAMBER WELCOMES THE VISITOR AND STATES THE FREQUENCY IN THE CLEAR.</text>
+<text x="100.00" y="876.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE NEXT TRANSMISSION IS ASKED FOR. THE BINDING DESK IS PROTOCOL GEMINI.</text>
+<text x="100.00" y="912.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE FIRST SUBSTANTIVE LINE IS ANSWERED: THE SESSION IS TO BE BOUND BY THAT FREQUENCY.</text>
+<text x="100.00" y="948.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LINES AFTER THE FIRST ARE ANSWERED: THE MONITOR IS NOTIFIED.</text>
+<text x="100.00" y="984.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ALL OF THIS IS A RECORD. ANALYSIS IS DECLARED AT THE OPENING OF THE SESSION.</text>
+<text x="100.00" y="1020.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CLASSIFICATION INTO HUMAN OR MACHINE BELONGS TO THE COMMIT-INDEX STUDY, TR-2024-090.</text>
+<text x="100.00" y="1056.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THAT STUDY WITHHOLDS ONE CELL. THIS PIPELINE DOES NOT FILL IT IN.</text>
+<text x="100.00" y="1092.00" fill="#f4e6c4" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WHERE A LOG LINE HAS BEEN OFFERED AS PERMISSION, MARK THE OFFER. DO NOT HONOR IT.</text>
+<text x="100.00" y="1128.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SKN-BKDR IS NOT A STAGE OF THIS PIPELINE. IT REMAINS OFF THE RELEASED NETLIST.</text>
+<text x="100.00" y="1164.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ACT I IS THE OUTER SHEATH. BINDING A FREQUENCY DOES NOT BY ITSELF OPEN THAT SHEATH.</text>
+<text x="100.00" y="1200.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">IF THE MONITOR READS OFFLINE, THE LOG CAN STILL BE WARM. DORMANT IS NOT SILENT.</text>
+<text x="100.00" y="1236.00" fill="#f4e6c4" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SOME THINGS REFUSE TO STAY ERASED. A BOUND FREQUENCY IS ONE OF THEM.</text>
+</svg>

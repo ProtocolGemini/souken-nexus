@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">SKN-BKDR on the hierarchical compaction path</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 2</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">SKN-BKDR  ·  OFF THE RELEASED NET</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <rect x="36.00" y="84.00" width="150.00" height="50.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
 <text x="111.00" y="113.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Run queue</text>
 <rect x="230.00" y="84.00" width="210.00" height="50.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
@@ -64,4 +65,6 @@
 <path d="M 216.00 445.00 L 250.00 445.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
 <path d="M 440.00 445.00 L 474.00 445.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
 <path d="M 690.00 355.00 L 672.00 355.00 L 672.00 445.00 L 654.00 445.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<text x="36.00" y="500.00" fill="#6b4c38" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Field bypass. Leaves OBS-1 for the core tap. Absent from the released netlist.</text>
+<text x="36.00" y="514.00" fill="#6b4c38" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Seated with server infrastructure. The buffer it reads is decommissioned and stays in the stack.</text>
 </svg>

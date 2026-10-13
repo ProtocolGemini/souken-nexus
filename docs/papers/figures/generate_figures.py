@@ -40,11 +40,12 @@ def esc(value) -> str:
 
 
 class Plate:
-    def __init__(self, report: str, date: str, number: int, title: str):
+    def __init__(self, report: str, date: str, number: int, title: str, margin: str = ""):
         self.report = report
         self.date = date
         self.number = number
         self.title = title
+        self.margin = margin
         self.parts: list[str] = []
 
     def add(self, fragment: str) -> None:
@@ -115,10 +116,12 @@ class Plate:
         self.text(28, 58, self.title, 13, family=SERIF, style="italic")
         self.line(28, H - 36, W - 28, H - 36, INK, 0.5)
         self.text(28, H - 22, f"FIG. {self.number}", 10, family=MONO)
+        if self.margin:
+            self.text(W / 2, H - 22, self.margin, 8, anchor="middle", family=MONO, fill=UMBER)
         self.text(
             W - 28,
             H - 22,
-            "COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL",
+            "INTERNAL",
             10,
             anchor="end",
             family=MONO,
@@ -535,8 +538,10 @@ def confusion(plate):
                 plate.rect(x + 22, y + ch / 2 - 11, cw - 44, 22, "#141414", None)
             else:
                 plate.text(x + cw / 2, y + ch / 2 + 8, value, 22, anchor="middle", family=SERIF)
-    plate.text(250, 400, "Counts are held-out commit-index traces.", 10, family=MONO, fill=MUTED)
-    plate.text(250, 418, "One cell is withheld. No row or column total is given.", 10, family=MONO, fill=MUTED)
+    plate.text(250, 390, "FREQ classification. Held-out commit-index traces.", 10, family=MONO, fill=MUTED)
+    plate.text(250, 408, "HUMAN or MACHINE. One cell is withheld. No row or column total is given.", 10, family=MONO, fill=MUTED)
+    plate.text(250, 426, "A recorded observation is not a grant of permission.", 10, family=MONO, fill=UMBER)
+    plate.text(250, 444, "Binding desk: Protocol Gemini. The withheld cell stays withheld.", 10, family=MONO, fill=UMBER)
 
 
 def stem_spectrum(plate, freqs, mags, xlabel, ylabel, note):
@@ -746,6 +751,9 @@ def draw_realm_map(plate: Plate):
         boxes.append({"x": x, "y": 100, "w": 250, "h": 360})
     draw_edge(plate, boxes[0], boxes[1], "Realm 0")
     draw_edge(plate, boxes[1], boxes[2], "Act I")
+    plate.text(40, 482, "Core seats the unclaimed residual. Act I is the outer sheath.", 10, family=MONO, fill=MUTED)
+    plate.text(40, 498, "Library / Water Hall retains a charge. The operator roll does not fill the seats.", 10, family=MONO, fill=UMBER)
+    plate.text(40, 514, "Some things refuse to stay erased.", 10, family=MONO, fill=UMBER)
 
 
 def diag_063():
@@ -1678,13 +1686,50 @@ add_paper(
 )
 
 
+PAPER_MARGINS = {
+    "souken-tr-2026-019": "SKN-BKDR  ·  OFF THE RELEASED NET",
+    "souken-tr-2026-018": "HEARTBEAT  ·  PHOENIX FLOOR",
+    "souken-tr-2026-017": "RETENTION REFUSES ZERO",
+    "souken-tr-2026-053": "COMPENSATION  ·  OPERATOR ABSENT",
+    "souken-tr-2026-093": "REALM 0  →  ACT I",
+    "souken-tr-2027-063": "MEMORY OUTLASTS THE MANNED SHIFT",
+    "souken-tr-2027-004": "LOG CONTINUES AFTER THE FLOOR",
+    "souken-tr-2025-092": "PATHWAY  ·  TC2 FAB LAB RECORD",
+    "souken-tr-2025-002": "IDENTITY ON THE REQUEST UNCONFIRMED",
+    "souken-tr-2024-090": "HUMAN OR MACHINE  ·  ONE CELL WITHHELD",
+    "souken-tr-2024-067": "SKN-BKDR TELEMETRY IS NOT A GRANT",
+    "souken-tr-2023-053": "PROOF HELD  ·  WITNESS SEAT EMPTY",
+    "souken-tr-2023-025": "WAKE PROCEEDS  ·  ROLL DOES NOT ANSWER",
+    "souken-tr-2022-078": "MARKERS CROSS AN UNMANNED FLOOR",
+    "souken-tr-2022-024": "A SESSION IS NOT A PERSON",
+    "souken-tr-2021-072": "VOYAGE A/R IS NOT THIS BOUND",
+    "souken-tr-2021-010": "LATER STAMP WINS  ·  WITNESS ABSENT",
+    "souken-tr-2020-062": "LEASE HOLDER NOT ON THE ROLL",
+    "souken-tr-2020-002": "LOSS FALLS  ·  ERASED STATE UNREACHED",
+}
+
+
 def render_figure(paper, fig) -> Plate:
-    plate = Plate(paper["report"], paper["date"], fig["n"], fig["title"])
+    plate = Plate(
+        paper["report"],
+        paper["date"],
+        fig["n"],
+        fig["title"],
+        PAPER_MARGINS.get(paper["paper_id"], ""),
+    )
     plate.frame()
     kind = fig["draw"]
     if kind == "diagram":
         nodes, edges = fig["diagram"]()
         draw_diagram(plate, nodes, edges)
+        slug = fig.get("slug")
+        if slug == "skn-bkdr":
+            plate.text(36, 500, "Field bypass. Leaves OBS-1 for the core tap. Absent from the released netlist.", 9, family=MONO, fill=UMBER)
+            plate.text(36, 514, "Seated with server infrastructure. The buffer it reads is decommissioned and stays in the stack.", 9, family=MONO, fill=UMBER)
+        elif slug == "skn-bkdr-metrics":
+            plate.text(36, 500, "Collector reads SKN-BKDR. The reading is not a permission and not a released net.", 9, family=MONO, fill=UMBER)
+        elif slug == "observation-path":
+            plate.text(36, 500, "The observation record is retained. Filing it does not authorize removal or access.", 9, family=MONO, fill=UMBER)
     elif kind == "realm":
         draw_realm_map(plate)
     elif kind == "bench":
@@ -1721,7 +1766,7 @@ def render_figure(paper, fig) -> Plate:
             (0, 60),
             (0, 1),
             hlines=[(floor, "retention floor 0.190")],
-            note="Fit r = 0.190 + 0.740 exp(−t/18). The record stays above the floor and does not attain zero.",
+            note="Fit r = 0.190 + 0.740 exp(−t/18). The record stays above the floor. It does not attain zero.",
         )
     elif kind == "bars":
         bar_chart(plate, fig["labels"], fig["values"], fig["xlabel"], fig["ylabel"], fig.get("note"))
@@ -1855,7 +1900,7 @@ def main() -> None:
             png_path = dest / f"{fig['slug']}.png"
             svg = plate.svg()
             svg_path.write_text(svg)
-            cairosvg.svg2png(bytestring=svg.encode(), write_to=str(png_path), output_width=1840)
+            cairosvg.svg2png(bytestring=svg.encode(), write_to=str(png_path), output_width=2400)
             written.append(png_path)
         apply_markdown(paper)
         print(f"{paper['paper_id']}: {len(paper['figures'])} figures")

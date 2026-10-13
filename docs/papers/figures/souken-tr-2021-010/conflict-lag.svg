@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Conflicts resolved, by timestamp lag</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 3</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">LATER STAMP WINS  ·  WITNESS ABSENT</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <line x1="150.00" y1="455.00" x2="860.00" y2="455.00" stroke="#ddd6c8" stroke-width="0.6"/>
 <text x="142.00" y="458.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0</text>
 <line x1="150.00" y1="363.03" x2="860.00" y2="363.03" stroke="#ddd6c8" stroke-width="0.6"/>

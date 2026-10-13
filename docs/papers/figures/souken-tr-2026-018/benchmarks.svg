@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Benchmark configurations</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 2</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">HEARTBEAT  ·  PHOENIX FLOOR</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <line x1="78.00" y1="86.00" x2="78.00" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
 <line x1="78.00" y1="470.00" x2="78.00" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
 <text x="78.00" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0</text>

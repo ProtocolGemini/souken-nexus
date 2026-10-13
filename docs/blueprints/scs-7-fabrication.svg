@@ -45,7 +45,7 @@
 <text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
 <text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">F9WDM33462</text>
 <text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
-<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">3 OF 5</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">3 OF 11</text>
 <text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
 <text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">1 : 2</text>
 <text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
@@ -163,4 +163,23 @@
 <text x="840.00" y="1596.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ENTERED AFTER THE FACILITY WENT DARK</text>
 <text x="620.00" y="1188.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REV 4  (R8QVN20471)  POSTDATES THE FLOOR LOG OF 2026-12-04.</text>
 <text x="620.00" y="1212.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE TRIANGLE ON THE TOP VIEW MARKS THAT REVISION.</text>
+<rect x="1680.00" y="150.00" width="620.00" height="620.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="1696.00" y="178.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DETAIL C  ·  SEAT AND CALLOUTS</text>
+<text x="1696.00" y="214.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C1  FLANGE SEAT IN TC2 FAB LAB</text>
+<text x="1696.00" y="240.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">    BAY 06, EAST BENCH, FIXTURE F-06.</text>
+<text x="1696.00" y="276.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C2  RESIDUAL BORE Ø6.20 ±0.02</text>
+<text x="1696.00" y="302.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">    OPEN AT BOTH CAPS. NO PLUG FIT.</text>
+<text x="1696.00" y="338.00" fill="#f4e6c4" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C3  BUFFER BAND, WARM STROKE</text>
+<text x="1696.00" y="364.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">    DECOMMISSIONED. DO NOT REMOVE.</text>
+<text x="1696.00" y="400.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C4  SECTION A–A IS THE TRUE STACK.</text>
+<text x="1696.00" y="426.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">    HATCH PITCH MARKS THE BAND.</text>
+<text x="1696.00" y="462.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C5  AUTHOR OF REV 4 IS WITHHELD.</text>
+<text x="1696.00" y="488.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">    DATE FALLS AFTER THE FLOOR LOG.</text>
+<text x="1696.00" y="524.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C6  IDENTITY OF THE LAST HAND</text>
+<text x="1696.00" y="550.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">    IS NOT CONFIRMED BY THE ROLL.</text>
+<text x="1696.00" y="590.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">MANNED OPS CEASED  2026-12-04.</text>
+<text x="1696.00" y="618.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THIS SHEET WAS STILL REVISED.</text>
+<text x="1696.00" y="660.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CROSS-REF  W4FHL66308  WATER HALL</text>
+<text x="1696.00" y="684.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CROSS-REF  N5BKH44821  SKN-BKDR</text>
+<text x="1696.00" y="708.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CROSS-REF  Q3NPL77014  NINE BAYS</text>
 </svg>

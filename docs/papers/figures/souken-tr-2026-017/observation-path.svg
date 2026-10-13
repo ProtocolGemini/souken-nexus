@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Deterministic observation path</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 1</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">RETENTION REFUSES ZERO</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <rect x="36.00" y="140.00" width="180.00" height="64.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
 <text x="126.00" y="176.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Compaction marker</text>
 <rect x="250.00" y="140.00" width="170.00" height="64.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
@@ -48,4 +49,5 @@
 <path d="M 126.00 204.00 L 126.00 310.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
 <rect x="93.20" y="248.00" width="43.60" height="13.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
 <text x="115.00" y="258.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">record</text>
+<text x="36.00" y="500.00" fill="#6b4c38" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">The observation record is retained. Filing it does not authorize removal or access.</text>
 </svg>

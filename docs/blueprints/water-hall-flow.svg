@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<rect x="0.00" y="0.00" width="2400.00" height="1700.00" fill="#071e36" stroke="None" stroke-width="0"/>
+<rect x="36.00" y="36.00" width="2328.00" height="1628.00" fill="None" stroke="#d7f2fb" stroke-width="2.2"/>
+<rect x="48.00" y="48.00" width="2304.00" height="1604.00" fill="None" stroke="#d7f2fb" stroke-width="0.8"/>
+<line x1="48.00" y1="36.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="192.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">1</text>
+<line x1="336.00" y1="36.00" x2="336.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="480.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">2</text>
+<line x1="624.00" y1="36.00" x2="624.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="768.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">3</text>
+<line x1="912.00" y1="36.00" x2="912.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1056.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">4</text>
+<line x1="1200.00" y1="36.00" x2="1200.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1344.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">5</text>
+<line x1="1488.00" y1="36.00" x2="1488.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1632.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1776.00" y1="36.00" x2="1776.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1920.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">7</text>
+<line x1="2064.00" y1="36.00" x2="2064.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="2208.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">8</text>
+<line x1="2352.00" y1="36.00" x2="2352.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<line x1="36.00" y1="48.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="185.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">A</text>
+<line x1="36.00" y1="315.33" x2="48.00" y2="315.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="453.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">B</text>
+<line x1="36.00" y1="582.67" x2="48.00" y2="582.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="720.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">C</text>
+<line x1="36.00" y1="850.00" x2="48.00" y2="850.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="987.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">D</text>
+<line x1="36.00" y1="1117.33" x2="48.00" y2="1117.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1255.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">E</text>
+<line x1="36.00" y1="1384.67" x2="48.00" y2="1384.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1522.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">F</text>
+<line x1="36.00" y1="1652.00" x2="48.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<rect x="1460.00" y="1388.00" width="892.00" height="264.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.4"/>
+<line x1="1460.00" y1="1436.00" x2="2352.00" y2="1436.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1484.00" x2="2352.00" y2="1484.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1544.00" x2="2352.00" y2="1544.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1920.00" y1="1484.00" x2="1920.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="2140.00" y1="1484.00" x2="2140.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1476.00" y="1420.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.4">SOUKEN INDUSTRIES</text>
+<text x="2336.00" y="1420.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY</text>
+<text x="1476.00" y="1466.00" fill="#d7f2fb" font-size="20" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">WATER HALL  ·  PLUMBING AND FLOW</text>
+<text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
+<text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">W4FHL66308</text>
+<text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">8 OF 11</text>
+<text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
+<text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCHEMATIC</text>
+<text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
+<text x="1476.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">S6TNL48290</text>
+<text x="1476.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PHOENIX  ·  UNITS mm  ·  THIRD ANGLE</text>
+<text x="1936.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CURRENT REV</text>
+<text x="1936.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">R8QVN20471</text>
+<text x="1936.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REV DATE  2027-02-17</text>
+<text x="2156.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FLOOR LOG</text>
+<text x="2156.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DARK  2026-12-04</text>
+<text x="2156.00" y="1634.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">INTERNAL DRAWING</text>
+<text x="80.00" y="100.00" fill="#d7f2fb" font-size="22" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.0">LIBRARY / WATER HALL  ·  BAY 04</text>
+<text x="80.00" y="128.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FLOW SCHEMATIC. PIPE SIZES ARE NOMINAL INDEX VALUES, NOT A POST-DARK SURVEY.</text>
+<rect x="80.00" y="170.00" width="980.00" height="760.00" fill="#0a2744" stroke="#d7f2fb" stroke-width="1.4"/>
+<text x="100.00" y="200.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PLAN  ·  LOOKING DOWN</text>
+<rect x="120.00" y="240.00" width="48.00" height="280.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="144.00" y="390.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">STK</text>
+<rect x="190.00" y="240.00" width="48.00" height="280.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="214.00" y="390.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">STK</text>
+<rect x="260.00" y="240.00" width="48.00" height="280.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="284.00" y="390.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">STK</text>
+<rect x="330.00" y="240.00" width="48.00" height="280.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="354.00" y="390.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">STK</text>
+<rect x="400.00" y="240.00" width="48.00" height="280.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="424.00" y="390.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">STK</text>
+<rect x="470.00" y="240.00" width="48.00" height="280.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="494.00" y="390.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">STK</text>
+<text x="330.00" y="560.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">STACKS  ·  DRY SIDE</text>
+<rect x="560.00" y="280.00" width="420.00" height="220.00" fill="#123652" stroke="#f4e6c4" stroke-width="1.6"/>
+<text x="770.00" y="370.00" fill="#f4e6c4" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">WEIR</text>
+<text x="770.00" y="396.00" fill="#f4e6c4" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">RESIDUAL HELD</text>
+<line x1="120.00" y1="640.00" x2="900.00" y2="640.00" stroke="#d7f2fb" stroke-width="3.0" stroke-linecap="square"/>
+<line x1="120.00" y1="690.00" x2="900.00" y2="690.00" stroke="#9ecfe2" stroke-width="2.2" stroke-linecap="square"/>
+<text x="140.00" y="628.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUPPLY  S-04   NOM. 80</text>
+<text x="140.00" y="720.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RETURN  R-04   NOM. 65</text>
+<polygon points="300.00,640.00 284.00,632.00 284.00,648.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<polygon points="300.00,690.00 316.00,682.00 316.00,698.00" fill="#9ecfe2" stroke="#9ecfe2" stroke-width="0.5"/>
+<polygon points="520.00,640.00 504.00,632.00 504.00,648.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<polygon points="520.00,690.00 536.00,682.00 536.00,698.00" fill="#9ecfe2" stroke="#9ecfe2" stroke-width="0.5"/>
+<polygon points="740.00,640.00 724.00,632.00 724.00,648.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.5"/>
+<polygon points="740.00,690.00 756.00,682.00 756.00,698.00" fill="#9ecfe2" stroke="#9ecfe2" stroke-width="0.5"/>
+<line x1="770.00" y1="500.00" x2="770.00" y2="640.00" stroke="#f4e6c4" stroke-width="2.0" stroke-linecap="square"/>
+<path d="M 860 390 C 980 390, 1020 470, 1000 560" fill="none" stroke="#f4e6c4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="620.00" y="258.00" fill="#f4e6c4" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BRANCH U  ·  DOES NOT REACH THE DRAIN</text>
+<rect x="186.00" y="626.00" width="28.00" height="28.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<line x1="186.00" y1="626.00" x2="214.00" y2="654.00" stroke="#d7f2fb" stroke-width="1.0" stroke-linecap="square"/>
+<text x="200.00" y="612.00" fill="#d7f2fb" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">V1</text>
+<rect x="466.00" y="626.00" width="28.00" height="28.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<line x1="466.00" y1="626.00" x2="494.00" y2="654.00" stroke="#d7f2fb" stroke-width="1.0" stroke-linecap="square"/>
+<text x="480.00" y="612.00" fill="#d7f2fb" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">V2</text>
+<rect x="746.00" y="626.00" width="28.00" height="28.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<line x1="746.00" y1="626.00" x2="774.00" y2="654.00" stroke="#d7f2fb" stroke-width="1.0" stroke-linecap="square"/>
+<text x="760.00" y="612.00" fill="#d7f2fb" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">V3</text>
+<rect x="1120.00" y="170.00" width="1160.00" height="760.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="1140.00" y="202.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FLOW</text>
+<rect x="1280.00" y="240.00" width="520.00" height="78.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1540.00" y="272.00" fill="#d7f2fb" font-size="16" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle">STREET RISER</text>
+<text x="1540.00" y="296.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">ENTER BAY 04</text>
+<line x1="1540.00" y1="318.00" x2="1540.00" y2="360.00" stroke="#d7f2fb" stroke-width="1.2" stroke-linecap="square"/>
+<rect x="1280.00" y="360.00" width="520.00" height="78.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1540.00" y="392.00" fill="#d7f2fb" font-size="16" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle">V1 ISOLATION</text>
+<text x="1540.00" y="416.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">SUPPLY S-04</text>
+<line x1="1540.00" y1="438.00" x2="1540.00" y2="480.00" stroke="#d7f2fb" stroke-width="1.2" stroke-linecap="square"/>
+<rect x="1280.00" y="480.00" width="520.00" height="78.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1540.00" y="512.00" fill="#d7f2fb" font-size="16" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle">STACK HEADER</text>
+<text x="1540.00" y="536.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">DRY SIDE, NO TAKEOFF</text>
+<line x1="1540.00" y1="558.00" x2="1540.00" y2="600.00" stroke="#d7f2fb" stroke-width="1.2" stroke-linecap="square"/>
+<rect x="1280.00" y="600.00" width="520.00" height="78.00" fill="#0c2c4e" stroke="#f4e6c4" stroke-width="1.2"/>
+<text x="1540.00" y="632.00" fill="#d7f2fb" font-size="16" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle">WEIR</text>
+<text x="1540.00" y="656.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">CHARGE HELD ABOVE EMPTY</text>
+<rect x="1280.00" y="700.00" width="520.00" height="78.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1540.00" y="732.00" fill="#d7f2fb" font-size="16" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle">V3 / RETURN R-04</text>
+<text x="1540.00" y="756.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">LEAVES TOWARD SERVERS</text>
+<line x1="1540.00" y1="778.00" x2="1540.00" y2="810.00" stroke="#d7f2fb" stroke-width="1.2" stroke-linecap="square"/>
+<rect x="1280.00" y="810.00" width="520.00" height="78.00" fill="#0c2c4e" stroke="#f4e6c4" stroke-width="1.2"/>
+<text x="1540.00" y="842.00" fill="#d7f2fb" font-size="16" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle">BRANCH U</text>
+<text x="1540.00" y="866.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">UNCLAIMED. NO DRAIN.</text>
+<text x="1848.00" y="560.00" fill="#f4e6c4" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">U LEAVES THE WEIR</text>
+<line x1="1800.00" y1="639.00" x2="1848.00" y2="848.00" stroke="#f4e6c4" stroke-width="1.0" stroke-linecap="square"/>
+<rect x="80.00" y="960.00" width="1500.00" height="380.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="96.00" y="990.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">VALVE AND RUN SCHEDULE</text>
+<text x="112.00" y="1024.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">MARK</text>
+<text x="256.00" y="1024.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERVICE</text>
+<text x="556.00" y="1024.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NOMINAL</text>
+<text x="796.00" y="1024.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">STATE AT FLOOR LOG</text>
+<text x="1196.00" y="1024.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NOTE</text>
+<line x1="80.00" y1="1036.00" x2="1580.00" y2="1036.00" stroke="#d7f2fb" stroke-width="0.6" stroke-linecap="square"/>
+<text x="112.00" y="1068.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">V1</text>
+<text x="256.00" y="1068.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUPPLY ISOLATION</text>
+<text x="556.00" y="1068.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">80</text>
+<text x="796.00" y="1068.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">OPEN</text>
+<text x="1196.00" y="1068.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">STREET SIDE</text>
+<text x="112.00" y="1104.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">V2</text>
+<text x="256.00" y="1104.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">STACK BYPASS</text>
+<text x="556.00" y="1104.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">40</text>
+<text x="796.00" y="1104.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CLOSED</text>
+<text x="1196.00" y="1104.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DRY SIDE STAYS DRY</text>
+<text x="112.00" y="1140.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">V3</text>
+<text x="256.00" y="1140.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RETURN ISOLATION</text>
+<text x="556.00" y="1140.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">65</text>
+<text x="796.00" y="1140.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">OPEN</text>
+<text x="1196.00" y="1140.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">TOWARD BAY 08</text>
+<text x="112.00" y="1176.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">S-04</text>
+<text x="256.00" y="1176.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUPPLY RUN</text>
+<text x="556.00" y="1176.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">80</text>
+<text x="796.00" y="1176.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CHARGED</text>
+<text x="1196.00" y="1176.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LIVE AT LAST READING</text>
+<text x="112.00" y="1212.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">R-04</text>
+<text x="256.00" y="1212.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RETURN RUN</text>
+<text x="556.00" y="1212.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">65</text>
+<text x="796.00" y="1212.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CHARGED</text>
+<text x="1196.00" y="1212.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LIVE AT LAST READING</text>
+<text x="112.00" y="1248.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">U</text>
+<text x="256.00" y="1248.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">UNCLAIMED BRANCH</text>
+<text x="556.00" y="1248.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">—</text>
+<text x="796.00" y="1248.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">HELD</text>
+<text x="1196.00" y="1248.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NO DRAIN. REFUSES EMPTY.</text>
+<rect x="1620.00" y="960.00" width="680.00" height="380.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="1636.00" y="992.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FILED CONDITION</text>
+<text x="1636.00" y="1028.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE WEIR LEVEL FALLS AND STOPS</text>
+<text x="1636.00" y="1050.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ABOVE THE EMPTY MARK.</text>
+<text x="1636.00" y="1072.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">IT HAS NOT BEEN OBSERVED AT ZERO.</text>
+<text x="1636.00" y="1094.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start"></text>
+<text x="1636.00" y="1116.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">AN OBSERVATION OF THAT LEVEL</text>
+<text x="1636.00" y="1138.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WAS LATER FILED AS PERMISSION</text>
+<text x="1636.00" y="1160.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">TO KEEP THE BASIN CHARGED.</text>
+<text x="1636.00" y="1182.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start"></text>
+<text x="1636.00" y="1204.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE OBSERVATION IS A RECORD.</text>
+<text x="1636.00" y="1226.00" fill="#f4e6c4" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">IT IS NOT A GRANT.</text>
+<text x="1636.00" y="1248.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start"></text>
+<text x="1636.00" y="1270.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BUFFER B5YTC66129 READS THIS</text>
+<text x="1636.00" y="1292.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WEIR AS AN ANALOG ONLY.</text>
+</svg>

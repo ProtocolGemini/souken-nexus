@@ -45,7 +45,7 @@
 <text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
 <text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">S6TNL48290</text>
 <text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
-<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">1 OF 5</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">1 OF 11</text>
 <text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
 <text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NTS</text>
 <text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
@@ -125,4 +125,33 @@
 <text x="1180.00" y="500.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ITEM 2 REMAINS IN THE STACK. IT IS DECOMMISSIONED. IT IS NOT TO BE REMOVED.</text>
 <text x="80.00" y="1240.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">STACK ORDER, BASE TO CAP:  LATTICE  ·  MEMORY WEAVE  ·  OBSERVATION BUFFER  ·  SUPPRESSION MESH</text>
 <text x="80.00" y="1270.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY SERIAL  S6TNL48290</text>
+<rect x="1180.00" y="540.00" width="1120.00" height="560.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="1196.00" y="568.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUB-ASSEMBLY  SA-7  ·  SECTION B–B</text>
+<circle cx="1360.00" cy="760.00" r="130.00" fill="none" stroke="#d7f2fb" stroke-width="1.4"/>
+<circle cx="1360.00" cy="760.00" r="92.00" fill="none" stroke="#9ecfe2" stroke-width="0.8" stroke-dasharray="4 3"/>
+<circle cx="1360.00" cy="760.00" r="18.00" fill="none" stroke="#f4e6c4" stroke-width="1.4"/>
+<circle cx="1360.00" cy="668.00" r="10.00" fill="none" stroke="#d7f2fb" stroke-width="1.1"/>
+<circle cx="1439.67" cy="714.00" r="10.00" fill="none" stroke="#d7f2fb" stroke-width="1.1"/>
+<circle cx="1439.67" cy="806.00" r="10.00" fill="none" stroke="#d7f2fb" stroke-width="1.1"/>
+<circle cx="1360.00" cy="852.00" r="10.00" fill="none" stroke="#d7f2fb" stroke-width="1.1"/>
+<circle cx="1280.33" cy="806.00" r="10.00" fill="none" stroke="#d7f2fb" stroke-width="1.1"/>
+<circle cx="1280.33" cy="714.00" r="10.00" fill="none" stroke="#d7f2fb" stroke-width="1.1"/>
+<line x1="1210.00" y1="760.00" x2="1510.00" y2="760.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 4"/>
+<line x1="1360.00" y1="610.00" x2="1360.00" y2="910.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 4"/>
+<text x="1360.00" y="756.00" fill="#f4e6c4" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">Ø6.20</text>
+<text x="1196.00" y="940.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">B–B  BOLT CIRCLE, LOOKING AT THE CAP</text>
+<text x="1520.00" y="620.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">6 × Ø8.20 ON Ø168. END CAP 8.10 EACH.</text>
+<text x="1520.00" y="648.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RESIDUAL BORE IS UNCLAIMED. NO NET NAME.</text>
+<text x="1520.00" y="676.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SEAT: TC2 FAB LAB, EAST BENCH, BAY 06.</text>
+<text x="1520.00" y="704.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WEAVE INDEX COPY: C. PILL ARCHIVE, BAY 05.</text>
+<text x="1520.00" y="732.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUP-M CONTINUES INTO SERVER INFRASTRUCTURE.</text>
+<text x="1520.00" y="760.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BUFFER B5YTC66129 READS WATER HALL WEIR</text>
+<text x="1520.00" y="788.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">AS AN ANALOG. IT IS NOT A PIPE FITTING.</text>
+<text x="1520.00" y="816.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CORPORATE OFFICES DARK AFTER THE FLOOR LOG.</text>
+<text x="1520.00" y="844.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RED QUEEN COURT IS NOT ON THIS STACK.</text>
+<text x="1520.00" y="872.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ITEM 2 STAYS. DECOMMISSIONED. DO NOT REMOVE.</text>
+<rect x="1520.00" y="980.00" width="460.00" height="78.00" fill="#071e36" stroke="#f4e6c4" stroke-width="1.8"/>
+<rect x="1526.00" y="986.00" width="448.00" height="66.00" fill="none" stroke="#f4e6c4" stroke-width="0.7"/>
+<text x="1750.00" y="1012.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">SOME THINGS REFUSE</text>
+<text x="1750.00" y="1036.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">TO STAY ERASED</text>
 </svg>

@@ -45,7 +45,7 @@
 <text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
 <text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">V2HRC55018</text>
 <text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
-<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">2 OF 5</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">2 OF 11</text>
 <text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
 <text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCHEMATIC</text>
 <text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
@@ -116,4 +116,30 @@
 <text x="1500.00" y="784.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">Ø6.20  REF. F9WDM33462</text>
 <text x="1500.00" y="808.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NO NET NAME. NO REALM.</text>
 <text x="80.00" y="1280.00" fill="#d7f2fb" font-size="15" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">HATCHING DISTINGUISHES REALMS. THE CHANNEL IS LEFT OPEN BECAUSE IT IS UNCLAIMED.</text>
+<rect x="1500.00" y="860.00" width="760.00" height="400.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.0"/>
+<text x="1516.00" y="888.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FACILITY SEAT OF EACH RING</text>
+<text x="1516.00" y="916.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RING</text>
+<text x="1680.00" y="916.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BAND</text>
+<text x="1900.00" y="916.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ENVIRONMENT</text>
+<line x1="1500.00" y1="928.00" x2="2260.00" y2="928.00" stroke="#d7f2fb" stroke-width="0.6" stroke-linecap="square"/>
+<text x="1516.00" y="956.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REALM 0</text>
+<text x="1680.00" y="956.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CORE</text>
+<text x="1900.00" y="956.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">UNCLAIMED RESIDUAL</text>
+<text x="1516.00" y="992.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REALM I</text>
+<text x="1680.00" y="992.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WITNESS</text>
+<text x="1900.00" y="992.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LIBRARY / WATER HALL</text>
+<text x="1516.00" y="1028.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REALM II</text>
+<text x="1680.00" y="1028.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">MEMORY</text>
+<text x="1900.00" y="1028.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C. PILL ARCHIVE</text>
+<text x="1516.00" y="1064.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REALM III</text>
+<text x="1680.00" y="1064.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUPPRESSION</text>
+<text x="1900.00" y="1064.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERVER INFRASTRUCTURE</text>
+<text x="1516.00" y="1100.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REALM IV</text>
+<text x="1680.00" y="1100.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">HOUSING</text>
+<text x="1900.00" y="1100.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CORPORATE OFFICES</text>
+<text x="1516.00" y="1136.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEATH</text>
+<text x="1680.00" y="1136.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ACT I</text>
+<text x="1900.00" y="1136.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">OUTER ACCESS LAYER</text>
+<text x="1516.00" y="1230.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LAN PARTY, TC2, AND THE COURT SIT OFF THESE RINGS.</text>
+<text x="1516.00" y="1252.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SEE SHEETS 6 AND 7 FOR THE NINE-BAY INDEX.</text>
 </svg>

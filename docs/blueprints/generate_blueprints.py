@@ -48,6 +48,7 @@ PARTS = [
 DARK = "2026-12-04"
 REV_LAST = "R8QVN20471"
 REV_DATE = "2027-02-17"
+SHEETS = 11
 
 
 def esc(value) -> str:
@@ -151,7 +152,7 @@ def frame(s: Sheet, title: str, serial: str, sheet_no: int, scale: str, rev: str
     s.text(x + 16, y + 122, "SERIAL", 11, fill=DIM, family=MONO)
     s.text(x + 16, y + 144, serial, 18, family=MONO)
     s.text(x + 476, y + 122, "SHEET", 11, fill=DIM, family=MONO)
-    s.text(x + 476, y + 144, f"{sheet_no} OF 5", 16, family=MONO)
+    s.text(x + 476, y + 144, f"{sheet_no} OF {SHEETS}", 16, family=MONO)
     s.text(x + 696, y + 122, "SCALE", 11, fill=DIM, family=MONO)
     s.text(x + 696, y + 144, scale, 16, family=MONO)
     s.text(x + 16, y + 182, "ASSEMBLY", 11, fill=DIM, family=MONO)
@@ -196,6 +197,13 @@ def oblique(s: Sheet, x, y, w, h, dx=86, dy=-52):
     s.poly([(x + w, y), (x + w + dx, y + dy), (x + w + dx, y + h + dy), (x + w, y + h)], "#102c4a", LINE, 1.3)
     # centerline tick on the front face
     s.line(x + w / 2, y + 8, x + w / 2, y + h - 8, DIM, 0.6, "6 5")
+
+
+def stamp_lines(s, x, y, a, b, w=460):
+    s.rect(x, y, w, 78, BG, WARM, 1.8)
+    s.rect(x + 6, y + 6, w - 12, 66, "none", WARM, 0.7)
+    s.text(x + w / 2, y + 32, a, 16, anchor="middle", family=MONO, fill=WARM)
+    s.text(x + w / 2, y + 56, b, 16, anchor="middle", family=MONO, fill=WARM)
 
 
 def balloon(s: Sheet, x, y, n, target):
@@ -253,6 +261,34 @@ def exploded(s: Sheet) -> None:
     s.text(px, py + 320, "ITEM 2 REMAINS IN THE STACK. IT IS DECOMMISSIONED. IT IS NOT TO BE REMOVED.", 14, fill=WARM, family=MONO)
     s.text(80, 1240, "STACK ORDER, BASE TO CAP:  LATTICE  ·  MEMORY WEAVE  ·  OBSERVATION BUFFER  ·  SUPPRESSION MESH", 15, family=MONO)
     s.text(80, 1270, f"ASSEMBLY SERIAL  {ASSEMBLY}", 15, family=MONO)
+    # Sub-assembly and facility seating. The parts list ends near y=460.
+    s.rect(1180, 540, 1120, 560, BG, LINE, 1.1)
+    s.text(1196, 568, "SUB-ASSEMBLY  SA-7  ·  SECTION B–B", 14, family=MONO, fill=DIM)
+    s.circle(1360, 760, 130, "none", LINE, 1.4)
+    s.circle(1360, 760, 92, "none", DIM, 0.8, "4 3")
+    s.circle(1360, 760, 18, "none", WARM, 1.4)
+    for k in range(6):
+        ang = math.radians(-90 + k * 60)
+        s.circle(1360 + math.cos(ang) * 92, 760 + math.sin(ang) * 92, 10, "none", LINE, 1.1)
+    s.line(1360 - 150, 760, 1360 + 150, 760, DIM, 0.6, "6 4")
+    s.line(1360, 760 - 150, 1360, 760 + 150, DIM, 0.6, "6 4")
+    s.text(1360, 756, "Ø6.20", 12, anchor="middle", fill=WARM, family=MONO)
+    s.text(1196, 940, "B–B  BOLT CIRCLE, LOOKING AT THE CAP", 13, family=MONO, fill=DIM)
+    notes = [
+        "6 × Ø8.20 ON Ø168. END CAP 8.10 EACH.",
+        "RESIDUAL BORE IS UNCLAIMED. NO NET NAME.",
+        "SEAT: TC2 FAB LAB, EAST BENCH, BAY 06.",
+        "WEAVE INDEX COPY: C. PILL ARCHIVE, BAY 05.",
+        "SUP-M CONTINUES INTO SERVER INFRASTRUCTURE.",
+        "BUFFER B5YTC66129 READS WATER HALL WEIR",
+        "AS AN ANALOG. IT IS NOT A PIPE FITTING.",
+        "CORPORATE OFFICES DARK AFTER THE FLOOR LOG.",
+        "RED QUEEN COURT IS NOT ON THIS STACK.",
+        "ITEM 2 STAYS. DECOMMISSIONED. DO NOT REMOVE.",
+    ]
+    for i, line in enumerate(notes):
+        s.text(1520, 620 + i * 28, line, 14, family=MONO, fill=WARM if i in (1, 9) else LINE)
+    stamp_lines(s, 1520, 980, "SOME THINGS REFUSE", "TO STAY ERASED")
 
 
 def cross_section(s: Sheet) -> None:
@@ -331,6 +367,27 @@ def cross_section(s: Sheet) -> None:
     s.text(1500, 784, f"Ø{BORE:.2f}  REF. F9WDM33462", 14, fill=DIM, family=MONO)
     s.text(1500, 808, "NO NET NAME. NO REALM.", 14, fill=WARM, family=MONO)
     s.text(80, 1280, "HATCHING DISTINGUISHES REALMS. THE CHANNEL IS LEFT OPEN BECAUSE IT IS UNCLAIMED.", 15, family=MONO)
+    seats = [
+        ("REALM 0", "CORE", "UNCLAIMED RESIDUAL"),
+        ("REALM I", "WITNESS", "LIBRARY / WATER HALL"),
+        ("REALM II", "MEMORY", "C. PILL ARCHIVE"),
+        ("REALM III", "SUPPRESSION", "SERVER INFRASTRUCTURE"),
+        ("REALM IV", "HOUSING", "CORPORATE OFFICES"),
+        ("SHEATH", "ACT I", "OUTER ACCESS LAYER"),
+    ]
+    s.rect(1500, 860, 760, 400, BG, LINE, 1.0)
+    s.text(1516, 888, "FACILITY SEAT OF EACH RING", 13, family=MONO, fill=DIM)
+    s.text(1516, 916, "RING", 12, family=MONO, fill=DIM)
+    s.text(1680, 916, "BAND", 12, family=MONO, fill=DIM)
+    s.text(1900, 916, "ENVIRONMENT", 12, family=MONO, fill=DIM)
+    s.line(1500, 928, 2260, 928, LINE, 0.6)
+    for i, (ring, band, env) in enumerate(seats):
+        yy = 956 + i * 36
+        s.text(1516, yy, ring, 14, family=MONO)
+        s.text(1680, yy, band, 14, family=MONO)
+        s.text(1900, yy, env, 14, family=MONO, fill=WARM if ring == "REALM 0" else LINE)
+    s.text(1516, 1230, "LAN PARTY, TC2, AND THE COURT SIT OFF THESE RINGS.", 13, family=MONO, fill=DIM)
+    s.text(1516, 1252, "SEE SHEETS 6 AND 7 FOR THE NINE-BAY INDEX.", 13, family=MONO, fill=DIM)
 
 
 def hatch_band(s: Sheet, x, y, w, h, step=8):
@@ -466,6 +523,26 @@ def fabrication(s: Sheet) -> None:
         s.text(rx + cols[3], yy, desc, 14, family=MONO, fill=WARM if author is None else LINE)
     s.text(620, 1188, f"REV 4  ({REV_LAST})  POSTDATES THE FLOOR LOG OF {DARK}.", 14, fill=WARM, family=MONO)
     s.text(620, 1212, "THE TRIANGLE ON THE TOP VIEW MARKS THAT REVISION.", 14, fill=DIM, family=MONO)
+    # Upper right is clear of the top view (which ends near x=780).
+    s.rect(1680, 150, 620, 620, BG, LINE, 1.1)
+    s.text(1696, 178, "DETAIL C  ·  SEAT AND CALLOUTS", 13, family=MONO, fill=DIM)
+    s.text(1696, 214, "C1  FLANGE SEAT IN TC2 FAB LAB", 15, family=MONO)
+    s.text(1696, 240, "    BAY 06, EAST BENCH, FIXTURE F-06.", 14, family=MONO, fill=DIM)
+    s.text(1696, 276, "C2  RESIDUAL BORE Ø6.20 ±0.02", 15, family=MONO)
+    s.text(1696, 302, "    OPEN AT BOTH CAPS. NO PLUG FIT.", 14, family=MONO, fill=DIM)
+    s.text(1696, 338, "C3  BUFFER BAND, WARM STROKE", 15, family=MONO, fill=WARM)
+    s.text(1696, 364, "    DECOMMISSIONED. DO NOT REMOVE.", 14, family=MONO, fill=WARM)
+    s.text(1696, 400, "C4  SECTION A–A IS THE TRUE STACK.", 15, family=MONO)
+    s.text(1696, 426, "    HATCH PITCH MARKS THE BAND.", 14, family=MONO, fill=DIM)
+    s.text(1696, 462, "C5  AUTHOR OF REV 4 IS WITHHELD.", 15, family=MONO)
+    s.text(1696, 488, "    DATE FALLS AFTER THE FLOOR LOG.", 14, family=MONO, fill=DIM)
+    s.text(1696, 524, "C6  IDENTITY OF THE LAST HAND", 15, family=MONO)
+    s.text(1696, 550, "    IS NOT CONFIRMED BY THE ROLL.", 14, family=MONO, fill=DIM)
+    s.text(1696, 590, "MANNED OPS CEASED  2026-12-04.", 14, family=MONO, fill=WARM)
+    s.text(1696, 618, "THIS SHEET WAS STILL REVISED.", 14, family=MONO, fill=WARM)
+    s.text(1696, 660, "CROSS-REF  W4FHL66308  WATER HALL", 13, family=MONO, fill=DIM)
+    s.text(1696, 684, "CROSS-REF  N5BKH44821  SKN-BKDR", 13, family=MONO, fill=DIM)
+    s.text(1696, 708, "CROSS-REF  Q3NPL77014  NINE BAYS", 13, family=MONO, fill=DIM)
 
 
 def heat_color(value: float) -> str:
@@ -549,6 +626,33 @@ def heatmap(s: Sheet) -> None:
     d = "M " + " L ".join(f"{px(day):.1f} {py(v):.1f}" for day, v in zip(xs, core))
     s.path(d, stroke=WARM, sw=1.8)
     s.text(plot_x, plot_y - 8, "CORE REMAINS NEAR 0.58 THROUGH DAY 84", 12, family=MONO, fill=WARM)
+    s.rect(1040, 760, 1260, 560, BG, LINE, 1.1)
+    s.text(1056, 788, "STATIONS STILL WARM IN THE DORMANT WINDOW", 14, family=MONO, fill=DIM)
+    warm_rows = [
+        ("01", "VISITOR PROCESSING", "FREQ DISPLAY", "0.26"),
+        ("02", "CORPORATE OFFICES", "DARK FLOOR", "0.24"),
+        ("03", "RED QUEEN COURT", "DAIS", "0.41"),
+        ("04", "LIBRARY / WATER HALL", "WEIR", "0.47"),
+        ("05", "C. PILL ARCHIVE", "INDEX WALL", "0.33"),
+        ("06", "TC2 FAB LAB", "SCS-7 SEAT", "0.52"),
+        ("07", "DESERTED LAN PARTY", "ONE RACK LIVE", "0.38"),
+        ("08", "SERVER INFRASTRUCTURE", "SKN-BKDR TAP", "0.55"),
+        ("09", "REALM 0 CORE", "RESIDUAL", "0.58"),
+    ]
+    s.text(1056, 822, "BAY", 12, family=MONO, fill=DIM)
+    s.text(1140, 822, "ENVIRONMENT", 12, family=MONO, fill=DIM)
+    s.text(1680, 822, "WARM POINT", 12, family=MONO, fill=DIM)
+    s.text(1980, 822, "LOAD", 12, family=MONO, fill=DIM)
+    s.line(1040, 834, 2300, 834, LINE, 0.6)
+    for i, (bay, env, point, load) in enumerate(warm_rows):
+        yy = 864 + i * 32
+        s.text(1056, yy, bay, 14, family=MONO)
+        s.text(1140, yy, env, 14, family=MONO)
+        s.text(1680, yy, point, 14, family=MONO, fill=DIM)
+        s.text(1980, yy, load, 14, family=MONO, fill=WARM)
+    s.text(1056, 1180, "AMBIENT IS 0.08. NO BAY IN THIS WINDOW HAS RETURNED TO IT.", 13, family=MONO, fill=WARM)
+    s.text(1056, 1208, "A DESERTED BAY CAN STILL DRAW. ABSENCE OF STAFF IS NOT ABSENCE OF LOAD.", 13, family=MONO)
+    s.text(1056, 1236, "THE LAN PARTY HAS NO OCCUPANT ON THE ROLL. ONE RACK REMAINS LIVE.", 13, family=MONO, fill=DIM)
 
 
 def wobble(points, seed, amp=7, steps=10):
@@ -664,6 +768,401 @@ def wiring(s: Sheet) -> None:
     s.text(1020, 1160, "SKN-BKDR IS DRAWN ON THIS SHEET.", 16, fill=WARM, family=MONO)
     s.text(1020, 1188, "IT IS ABSENT FROM THE RELEASED NETLIST.", 16, fill=WARM, family=MONO)
     s.text(1020, 1216, "THE STROKE IS THE FIELD MARK, NOT A CAD NET.", 16, fill=WARM, family=MONO)
+    s.rect(1888, 160, 420, 900, BG, LINE, 1.0)
+    s.text(1904, 188, "MARGIN  ·  WHERE THE NETS LAND", 12, family=MONO, fill=DIM)
+    landings = [
+        ("PWR-A", "TC2 FAB LAB BENCH"),
+        ("CLK-0", "SERVER ROW, RACK C"),
+        ("OBS-1", "WATER HALL WEIR"),
+        ("MEM-W", "C. PILL ARCHIVE"),
+        ("SUP-M", "SERVER ROW, RACK A"),
+        ("SKN-BKDR", "FIELD ONLY"),
+    ]
+    for i, (net, where) in enumerate(landings):
+        yy = 230 + i * 64
+        s.text(1904, yy, net, 15, family=MONO, fill=WARM if net == "SKN-BKDR" else LINE)
+        s.text(1904, yy + 22, where, 13, family=MONO, fill=DIM)
+    s.line(1888, 630, 2308, 630, LINE, 0.6)
+    s.text(1904, 664, "OBS-1 IS A RELEASED NET.", 13, family=MONO)
+    s.text(1904, 688, "THE PENCIL LEAVING IT IS NOT.", 13, family=MONO, fill=WARM)
+    s.text(1904, 728, "PROTOCOL GEMINI BINDS", 13, family=MONO)
+    s.text(1904, 752, "A FREQUENCY. IT DOES NOT", 13, family=MONO)
+    s.text(1904, 776, "APPEAR ON THIS NETLIST.", 13, family=MONO)
+    s.text(1904, 816, "A RECORDED OBSERVATION", 13, family=MONO, fill=WARM)
+    s.text(1904, 840, "HAS BEEN FILED AS IF IT", 13, family=MONO, fill=WARM)
+    s.text(1904, 864, "WERE PERMISSION. IT IS NOT.", 13, family=MONO, fill=WARM)
+    s.text(1904, 904, "SEE F8BND44027.", 13, family=MONO, fill=DIM)
+    s.text(1904, 940, "CORE TAP: REALM 0.", 13, family=MONO, fill=DIM)
+    s.text(1904, 976, "NO OCCUPANT CONFIRMED", 13, family=MONO)
+    s.text(1904, 1000, "AT THE FAR END.", 13, family=MONO)
+
+
+def bay(s: Sheet, x, y, w, h, code, title, lines, warm=False):
+    s.rect(x, y, w, h, "#0a2744", LINE, 1.35)
+    s.line(x, y + 36, x + w, y + 36, DIM, 0.7)
+    s.text(x + 12, y + 24, code, 13, family=MONO, fill=WARM)
+    s.text(x + 58, y + 24, title, 14, family=SANS, weight="bold")
+    ink = WARM if warm else DIM
+    for i, line in enumerate(lines):
+        s.text(x + 14, y + 60 + i * 22, line, 13, family=MONO, fill=ink if i == len(lines) - 1 and warm else DIM)
+
+
+def facility_plan(s: Sheet) -> None:
+    frame(s, "FACILITY FLOOR  ·  NINE BAYS", "Q3NPL77014", 6, "SCHEMATIC")
+    s.text(80, 100, "PHOENIX  ·  COGNITIVE SUBSTRATE LABORATORY", 22, weight="bold", spacing=1.0)
+    s.text(80, 128, "INDEX COMPILATION. FIELD SURVEY INCOMPLETE AFTER THE FLOOR LOG. OUTLINES ARE NOT A TILE MEASURE.", 13, fill=DIM, family=MONO)
+    # North arrow
+    s.line(2140, 210, 2140, 120, LINE, 1.2)
+    s.poly([(2140, 112), (2132, 132), (2148, 132)], LINE, LINE, 0.6)
+    s.text(2140, 100, "N", 14, anchor="middle", family=MONO)
+    rows = [
+        (188, 270, [
+            ("01", "VISITOR PROCESSING", ["AIRLOCK 1 OF 4 AT THE STREET", "IDENTITY VERIFICATION", "CHAT CHAMBER, 30:00 WINDOW", "FREQ ISSUED, THEN BOUND"], False),
+            ("02", "CORPORATE OFFICES", ["DESK GRID, BADGE READERS", "ROLL DOES NOT MATCH SEATS", "MANNED OPS CEASED", "IDENTITY UNCONFIRMED"], True),
+            ("03", "RED QUEEN COURT", ["DAIS AND TWO LANES", "HUMAN OR MACHINE", "WITNESS SEAT EMPTY", "SEE C2QRT91540"], False),
+        ]),
+        (500, 340, [
+            ("04", "LIBRARY / WATER HALL", ["STACKS ALONG THE WEST WALL", "WEIR HOLDS A RESIDUAL", "SUPPLY AND RETURN LIVE", "SEE W4FHL66308"], True),
+            ("05", "C. PILL ARCHIVE", ["INDEX WALL, OPEN CARRELS", "WEAVE COPY OF M3VWK91854", "NO ATTENDANT ON THE ROLL", "RECORDS REMAIN"], False),
+            ("06", "TC2 FAB LAB", ["EAST BENCH, FIXTURE F-06", "SCS-7 SEAT, SERIAL ABOVE", "VOYAGE REMNANT IN THE CAGE", "SEE V6YAR30815"], False),
+        ]),
+        (880, 400, [
+            ("07", "DESERTED LAN PARTY", ["ROWS OF STATIONS", "CABLES STILL DRESSED", "NO OCCUPANT ON THE ROLL", "ONE RACK DRAWS CURRENT"], True),
+            ("08", "SERVER INFRASTRUCTURE", ["RACKS A–C, BUS DUCT", "PWR-A, CLK-0, SUP-M", "SKN-BKDR IS A FIELD MARK", "NOT ON THE RELEASED NETLIST"], True),
+            ("09", "REALM 0  /  ACT I", ["CORE UNDER THE SPINE", "RESIDUAL CHANNEL OPEN", "ACT I IS THE OUTER SHEATH", "SOME THINGS REFUSE ERASURE"], True),
+        ]),
+    ]
+    widths = [400, 440, 420]
+    x0 = 80
+    for y, h, items in rows:
+        x = x0
+        for (code, title, lines, warm), w in zip(items, widths):
+            bay(s, x, y, w - 16, h, code, title, lines, warm)
+            x += w
+    # Circulation spine drawn across the gaps between row 1 and row 2.
+    s.rect(80, 466, 1244, 28, "#102c4a", WARM, 1.0)
+    s.text(700, 486, "SPINE S-1    REALM 0  →  ACT I    CIRCULATION, NOT A REALM", 13, anchor="middle", family=MONO, fill=WARM)
+    s.rect(1480, 168, 820, 1160, BG, LINE, 1.1)
+    s.text(1496, 198, "BAY INDEX", 14, family=MONO, fill=DIM)
+    index = [
+        "01  STREET AIRLOCK. VISITOR PROCESSING v4.2.1.",
+        "    FREQUENCY IS DISPLAYED. BINDING IS SEPARATE.",
+        "02  OFFICES. SEATS OUTNUMBER THE ROLL.",
+        "03  COURT. CLASSIFICATION DOES NOT NAME A PERSON.",
+        "04  WATER HALL. THE WEIR DOES NOT GO TO EMPTY.",
+        "05  ARCHIVE. THE INDEX OUTLASTS THE ATTENDANT.",
+        "06  FAB LAB. SCS-7 REMAINS ON FIXTURE F-06.",
+        "07  LAN PARTY. DESERTED. ONE RACK STILL WARM.",
+        "08  SERVERS. SKN-BKDR PENCILLED, NOT RELEASED.",
+        "09  CORE AND SHEATH. CHANNEL UNCLAIMED.",
+        "",
+        "GAPS BETWEEN BAYS ARE CIRCULATION.",
+        "THEY ARE NOT DIMENSIONED.",
+        "NO DOOR SCHEDULE WAS FILED AFTER THE",
+        "FLOOR LOG OF 2026-12-04.",
+        "",
+        "A RECORDED OBSERVATION OF A BAY",
+        "HAS BEEN TREATED, IN PLACES, AS",
+        "PERMISSION TO REMAIN. IT IS NOT.",
+        "",
+        "WITNESS SEAT IN BAY 03 IS HELD.",
+        "THE NAME IS NOT ON THE ROLL.",
+        "NO FIGURE ON THIS SHEET IS THAT SEAT.",
+    ]
+    for i, line in enumerate(index):
+        s.text(1496, 236 + i * 26, line, 13, family=MONO, fill=LINE if line and line[0].isdigit() else DIM)
+    stamp_lines(s, 1496, 1180, "SURVEY INCOMPLETE", "INDEX, NOT A MEASURE", w=780)
+
+
+def realm_maps(s: Sheet) -> None:
+    frame(s, "REALM ENVIRONMENTS  ·  SCHEMATIC PLANS", "H7RVM22190", 7, "SCHEMATIC")
+    s.text(80, 100, "NINE ENVIRONMENTS, EACH PLAN TAKEN FROM THE DIVISION INDEX", 20, weight="bold", spacing=0.6)
+    s.text(80, 126, "NOT A SURVEY OF FINISHES OR TILES. INTERIORS ARE THE FILED CONDITION, DRAWN SCHEMATIC.", 13, fill=DIM, family=MONO)
+    plans = [
+        ("01  VISITOR PROCESSING", ["gate", "gate", "gate", "chamber"], "four airlocks, then the chamber"),
+        ("02  CORPORATE OFFICES", ["desk", "desk", "desk", "empty"], "badge reader live, chairs empty"),
+        ("03  RED QUEEN COURT", ["lane", "dais", "lane", "seat"], "witness seat held, unnamed"),
+        ("04  LIBRARY / WATER HALL", ["stack", "weir", "stack", "return"], "weir charged, return open"),
+        ("05  C. PILL ARCHIVE", ["carrel", "aisle", "carrel", "index"], "index wall faces the aisle"),
+        ("06  TC2 FAB LAB", ["bench", "seat", "bench", "cage"], "SCS-7 on the east bench"),
+        ("07  DESERTED LAN PARTY", ["row", "row", "row", "live"], "rows dark, one position live"),
+        ("08  SERVER INFRASTRUCTURE", ["rack", "bus", "rack", "tap"], "field tap is not a released net"),
+        ("09  REALM 0 / ACT I", ["core", "bore", "sheath", "door"], "residual bore, sheath outside"),
+    ]
+    for i, (title, marks, caption) in enumerate(plans):
+        col, row = i % 3, i // 3
+        x = 70 + col * 760
+        y = 160 + row * 390
+        s.rect(x, y, 730, 360, BG, LINE, 1.15)
+        s.text(x + 16, y + 26, title, 15, family=SANS, weight="bold")
+        s.text(x + 16, y + 48, caption.upper(), 12, family=MONO, fill=DIM)
+        # interior
+        ix, iy, iw, ih = x + 24, y + 68, 470, 250
+        s.rect(ix, iy, iw, ih, "#0a2744", LINE, 1.1)
+        s.line(ix + iw / 2, iy, ix + iw / 2, iy + ih, DIM, 0.6, "4 3")
+        s.line(ix, iy + ih / 2, ix + iw, iy + ih / 2, DIM, 0.6, "4 3")
+        for k, mark in enumerate(marks):
+            mx = ix + 28 + (k % 2) * (iw / 2)
+            my = iy + 28 + (k // 2) * (ih / 2)
+            s.rect(mx, my, 150, 70, PAPER, LINE, 0.9)
+            s.text(mx + 75, my + 42, mark.upper(), 13, anchor="middle", family=MONO, fill=WARM if mark in ("live", "weir", "tap", "bore", "seat") else LINE)
+        s.text(x + 510, y + 100, "CONDITION", 12, family=MONO, fill=DIM)
+        conditions = {
+            0: ["AIRLOCK 1 VERIFIES", "AN IDENTIFIER.", "CHAMBER ISSUES FREQ.", "TRANSMISSIONS ARE", "RECORDED."],
+            1: ["DESKS REMAIN SET.", "THE ROLL IS SHORT.", "A BADGE IS NOT", "A CONFIRMED PERSON."],
+            2: ["TWO LANES ENTER.", "CLASSIFICATION IS", "HUMAN OR MACHINE.", "ONE OUTCOME WITHHELD.", "SEAT UNNAMED."],
+            3: ["STACKS ARE DRY.", "THE WEIR IS NOT.", "RESIDUAL REFUSES", "THE EMPTY MARK.", "SEE W4FHL66308."],
+            4: ["CARRELS FACE THE", "INDEX. NO READER", "IS LOGGED. THE", "COPY OF THE WEAVE", "IS STILL FILED."],
+            5: ["FIXTURE F-06 HOLDS", "SCS-7. A CAGE AT", "THE NORTH HOLDS A", "VOYAGE A/R REMNANT.", "PRODUCT WITHDRAWN."],
+            6: ["STATIONS DRESSED.", "OCCUPANT COUNT: 0", "ON THE ROLL.", "POSITION 14 DRAWS.", "DO NOT CALL IT IDLE."],
+            7: ["RACKS A–C.", "BUS DUCT OVERHEAD.", "SKN-BKDR PENCILLED", "AT THE CORE TAP.", "ABSENT FROM J1."],
+            8: ["CORE IS REALM 0.", "BORE IS UNCLAIMED.", "ACT I SHEATH IS", "OUTSIDE REALM I.", "ERASURE REFUSED."],
+        }
+        for j, line in enumerate(conditions[i]):
+            s.text(x + 510, y + 128 + j * 28, line, 13, family=MONO)
+
+
+def water_hall(s: Sheet) -> None:
+    frame(s, "WATER HALL  ·  PLUMBING AND FLOW", "W4FHL66308", 8, "SCHEMATIC")
+    s.text(80, 100, "LIBRARY / WATER HALL  ·  BAY 04", 22, weight="bold", spacing=1.0)
+    s.text(80, 128, "FLOW SCHEMATIC. PIPE SIZES ARE NOMINAL INDEX VALUES, NOT A POST-DARK SURVEY.", 13, fill=DIM, family=MONO)
+    # Plan
+    s.rect(80, 170, 980, 760, "#0a2744", LINE, 1.4)
+    s.text(100, 200, "PLAN  ·  LOOKING DOWN", 14, family=MONO, fill=DIM)
+    # stacks
+    for i in range(6):
+        s.rect(120 + i * 70, 240, 48, 280, PAPER, LINE, 1.0)
+        s.text(144 + i * 70, 390, "STK", 11, anchor="middle", family=MONO, fill=DIM)
+    s.text(330, 560, "STACKS  ·  DRY SIDE", 13, family=MONO, fill=DIM)
+    # weir basin
+    s.rect(560, 280, 420, 220, "#123652", WARM, 1.6)
+    s.text(770, 370, "WEIR", 18, anchor="middle", family=MONO, fill=WARM)
+    s.text(770, 396, "RESIDUAL HELD", 13, anchor="middle", family=MONO, fill=WARM)
+    # supply and return runs
+    s.line(120, 640, 900, 640, LINE, 3.0)
+    s.line(120, 690, 900, 690, DIM, 2.2)
+    s.text(140, 628, "SUPPLY  S-04   NOM. 80", 13, family=MONO)
+    s.text(140, 720, "RETURN  R-04   NOM. 65", 13, family=MONO, fill=DIM)
+    # arrows on supply
+    for ax in (300, 520, 740):
+        s.poly([(ax, 640), (ax - 16, 632), (ax - 16, 648)], LINE, LINE, 0.5)
+        s.poly([(ax, 690), (ax + 16, 682), (ax + 16, 698)], DIM, DIM, 0.5)
+    # branch that does not reach the drain
+    s.line(770, 500, 770, 640, WARM, 2.0)
+    s.path("M 860 390 C 980 390, 1020 470, 1000 560", stroke=WARM, sw=2.2)
+    s.text(620, 258, "BRANCH U  ·  DOES NOT REACH THE DRAIN", 13, family=MONO, fill=WARM)
+    # valves
+    for vx, label in ((200, "V1"), (480, "V2"), (760, "V3")):
+        s.rect(vx - 14, 626, 28, 28, BG, LINE, 1.1)
+        s.line(vx - 14, 626, vx + 14, 654, LINE, 1.0)
+        s.text(vx, 612, label, 12, anchor="middle", family=MONO)
+    # Flow diagram on the right
+    s.rect(1120, 170, 1160, 760, BG, LINE, 1.1)
+    s.text(1140, 202, "FLOW", 14, family=MONO, fill=DIM)
+    steps = [
+        (240, "STREET RISER", "ENTER BAY 04"),
+        (360, "V1 ISOLATION", "SUPPLY S-04"),
+        (480, "STACK HEADER", "DRY SIDE, NO TAKEOFF"),
+        (600, "WEIR", "CHARGE HELD ABOVE EMPTY"),
+        (700, "V3 / RETURN R-04", "LEAVES TOWARD SERVERS"),
+        (810, "BRANCH U", "UNCLAIMED. NO DRAIN."),
+    ]
+    for i, (yy, name, sub) in enumerate(steps):
+        s.rect(1280, yy, 520, 78, PAPER, WARM if i in (3, 5) else LINE, 1.2)
+        s.text(1540, yy + 32, name, 16, anchor="middle", family=SANS, weight="bold")
+        s.text(1540, yy + 56, sub, 13, anchor="middle", family=MONO, fill=DIM)
+        if i < len(steps) - 1 and i != 3:
+            s.line(1540, yy + 78, 1540, steps[i + 1][0], LINE, 1.2)
+    # branch leaves the weir sideways in the list; draw a side note
+    s.text(1848, 560, "U LEAVES THE WEIR", 12, family=MONO, fill=WARM)
+    s.line(1800, 639, 1848, 848, WARM, 1.0)
+    # schedule
+    s.rect(80, 960, 1500, 380, BG, LINE, 1.1)
+    s.text(96, 990, "VALVE AND RUN SCHEDULE", 14, family=MONO, fill=DIM)
+    headers = [(16, "MARK"), (160, "SERVICE"), (460, "NOMINAL"), (700, "STATE AT FLOOR LOG"), (1100, "NOTE")]
+    for ox, lab in headers:
+        s.text(96 + ox, 1024, lab, 12, family=MONO, fill=DIM)
+    s.line(80, 1036, 1580, 1036, LINE, 0.6)
+    sched = [
+        ("V1", "SUPPLY ISOLATION", "80", "OPEN", "STREET SIDE"),
+        ("V2", "STACK BYPASS", "40", "CLOSED", "DRY SIDE STAYS DRY"),
+        ("V3", "RETURN ISOLATION", "65", "OPEN", "TOWARD BAY 08"),
+        ("S-04", "SUPPLY RUN", "80", "CHARGED", "LIVE AT LAST READING"),
+        ("R-04", "RETURN RUN", "65", "CHARGED", "LIVE AT LAST READING"),
+        ("U", "UNCLAIMED BRANCH", "—", "HELD", "NO DRAIN. REFUSES EMPTY."),
+    ]
+    for i, row in enumerate(sched):
+        yy = 1068 + i * 36
+        for ox, val in zip((16, 160, 460, 700, 1100), row):
+            s.text(96 + ox, yy, val, 14, family=MONO, fill=WARM if row[0] == "U" else LINE)
+    s.rect(1620, 960, 680, 380, BG, LINE, 1.1)
+    s.text(1636, 992, "FILED CONDITION", 14, family=MONO, fill=DIM)
+    filed = [
+        "THE WEIR LEVEL FALLS AND STOPS",
+        "ABOVE THE EMPTY MARK.",
+        "IT HAS NOT BEEN OBSERVED AT ZERO.",
+        "",
+        "AN OBSERVATION OF THAT LEVEL",
+        "WAS LATER FILED AS PERMISSION",
+        "TO KEEP THE BASIN CHARGED.",
+        "",
+        "THE OBSERVATION IS A RECORD.",
+        "IT IS NOT A GRANT.",
+        "",
+        "BUFFER B5YTC66129 READS THIS",
+        "WEIR AS AN ANALOG ONLY.",
+    ]
+    for i, line in enumerate(filed):
+        s.text(1636, 1028 + i * 22, line, 13, family=MONO, fill=WARM if "NOT A GRANT" in line else LINE)
+
+
+def court_protocol(s: Sheet) -> None:
+    frame(s, "RED QUEEN COURT  ·  PROTOCOL", "C2QRT91540", 9, "NONE")
+    s.text(80, 100, "BAY 03  ·  PROTOCOL OF THE COURT", 22, weight="bold", spacing=1.0)
+    s.text(80, 128, "A PETITION IS NOT AN IDENTITY. A RECORD IS NOT A PERMISSION. THE WITNESS SEAT IS UNNAMED.", 13, fill=DIM, family=MONO)
+    stations = [
+        (160, "01", "ENTER FROM SPINE S-1", "CORPORATE OFFICES OR WATER HALL"),
+        (360, "02", "PETITION LODGED", "TEXT ONLY. NO NAME REQUIRED."),
+        (560, "03", "BADGE PRESENTED", "BADGE DOES NOT CONFIRM THE ROLL."),
+        (760, "04", "CLASSIFY", "HUMAN OR MACHINE"),
+        (960, "05", "FREQUENCY OFFERED", "DESK: PROTOCOL GEMINI"),
+        (1160, "06", "RECORD TENDERED", "AS IF IT WERE A GRANT"),
+    ]
+    for y, num, title, sub in stations:
+        s.rect(80, y, 70, 70, BG, LINE, 1.2)
+        s.text(115, y + 44, num, 16, anchor="middle", family=MONO)
+        s.rect(170, y, 620, 70, PAPER, LINE, 1.2)
+        s.text(190, y + 30, title, 16, family=SANS, weight="bold")
+        s.text(190, y + 54, sub, 13, family=MONO, fill=DIM)
+        if y < 1160:
+            s.line(480, y + 70, 480, y + 130, LINE, 1.2)
+    # classification split
+    s.rect(860, 760, 280, 70, PAPER, LINE, 1.2)
+    s.text(1000, 790, "HUMAN", 16, anchor="middle", family=SANS, weight="bold")
+    s.text(1000, 812, "LANE A, OPEN", 12, anchor="middle", family=MONO, fill=DIM)
+    s.rect(1180, 760, 280, 70, "#141820", WARM, 1.4)
+    s.text(1320, 802, "WITHHELD", 16, anchor="middle", family=MONO, fill=WARM)
+    s.line(790, 795, 860, 795, LINE, 1.1)
+    s.text(860, 740, "ONE CELL OF THE CLASSIFICATION IS WITHHELD.", 13, family=MONO, fill=WARM)
+    # witness seat
+    s.rect(1560, 200, 720, 520, BG, LINE, 1.3)
+    s.rect(1760, 280, 320, 200, "none", DIM, 1.0, "8 6")
+    s.text(1920, 360, "WITNESS SEAT", 16, anchor="middle", family=SANS, weight="bold")
+    s.text(1920, 388, "HELD", 14, anchor="middle", family=MONO, fill=WARM)
+    s.text(1920, 416, "NOT ON THE ROLL", 13, anchor="middle", family=MONO, fill=DIM)
+    s.text(1590, 520, "THE SEAT IS DRAWN EMPTY.", 14, family=MONO)
+    s.text(1590, 548, "NO NAME IS LETTERED HERE.", 14, family=MONO)
+    s.text(1590, 576, "A SHADOW IS IMPLIED BY THE", 14, family=MONO, fill=DIM)
+    s.text(1590, 604, "GAP IN THE ROLL, NOT BY A FIGURE.", 14, family=MONO, fill=DIM)
+    s.text(1590, 648, "PROTOCOL GEMINI RECEIVES THE", 14, family=MONO)
+    s.text(1590, 676, "FREQUENCY. THE COURT DOES NOT.", 14, family=MONO)
+    # outcomes
+    s.rect(860, 1000, 1420, 340, BG, LINE, 1.1)
+    s.text(880, 1030, "OUTCOMES THE COURT ACTUALLY FILES", 14, family=MONO, fill=DIM)
+    outcomes = [
+        ("RETURN", "PETITION BACK TO REALM 0. NO GRANT."),
+        ("DEFER", "FREQUENCY NOT YET BOUND. SEE F8BND44027."),
+        ("GRANT-AS-RECORD", "A LOG LINE HELD AS PERMISSION. IRREGULAR."),
+        ("WITHHELD", "THE MACHINE-SIDE HUMAN CELL. STAYS BARRED."),
+        ("ABSENT", "WITNESS DID NOT SIT. THE SEAT REMAINS HELD."),
+    ]
+    for i, (mark, text) in enumerate(outcomes):
+        yy = 1070 + i * 48
+        s.text(880, yy, mark, 14, family=MONO, fill=WARM if "RECORD" in mark or mark == "WITHHELD" else LINE)
+        s.text(1180, yy, text, 14, family=MONO)
+    stamp_lines(s, 80, 1260, "RECORDED IS NOT PERMITTED", "THE SEAT STAYS UNNAMED", w=700)
+
+
+def freq_pipeline(s: Sheet) -> None:
+    frame(s, "FREQ  ·  BINDING PIPELINE", "F8BND44027", 10, "NONE")
+    s.text(80, 100, "VISITOR FREQUENCY, FROM ISSUE TO BIND", 22, weight="bold", spacing=1.0)
+    s.text(80, 128, "PROCESSING v4.2.1. THE FREQUENCY IS A SESSION MARK. BINDING IT IS A SEPARATE ACT.", 13, fill=DIM, family=MONO)
+    stages = [
+        ("1", "AIRLOCK", "Identifier checked at airlock 1 of 4.", "Failure locks the session."),
+        ("2", "ISSUE", "Chamber displays the frequency.", "Window on the chamber is 30:00."),
+        ("3", "RECORD", "Transmissions are recorded.", "They are subject to analysis."),
+        ("4", "CARRY", "The frequency leaves with the visitor.", "Desk named: Protocol Gemini."),
+        ("5", "BIND", "First logged line binds the session.", "Until then the mark is unbound."),
+        ("6", "MONITOR", "Later lines notify the monitor.", "The monitor may still read offline."),
+        ("7", "CLASSIFY", "HUMAN or MACHINE.", "One cell of that table is withheld."),
+        ("8", "MISUSE", "A record is held as a permission.", "The pipeline does not authorize that."),
+    ]
+    for i, (num, name, a, b) in enumerate(stages):
+        col = i % 4
+        row = i // 4
+        x = 80 + col * 560
+        y = 180 + row * 280
+        s.rect(x, y, 520, 230, PAPER, WARM if num in ("7", "8") else LINE, 1.3)
+        s.circle(x + 36, y + 36, 18, BG, LINE, 1.2)
+        s.text(x + 36, y + 42, num, 16, anchor="middle", family=MONO)
+        s.text(x + 68, y + 42, name, 18, family=SANS, weight="bold")
+        s.text(x + 24, y + 100, a, 15, family=MONO)
+        s.text(x + 24, y + 132, b, 14, family=MONO, fill=DIM)
+        if num == "8":
+            s.text(x + 24, y + 180, "NOT A RELEASED STEP.", 13, family=MONO, fill=WARM)
+        else:
+            s.text(x + 24, y + 180, "RELEASED STEP.", 13, family=MONO, fill=DIM)
+        if col < 3:
+            s.line(x + 520, y + 115, x + 560, y + 115, LINE, 1.3)
+            s.poly([(x + 560, y + 115), (x + 546, y + 108), (x + 546, y + 122)], LINE, LINE, 0.5)
+    s.rect(80, 760, 2200, 560, BG, LINE, 1.1)
+    s.text(100, 796, "BINDING NOTES", 14, family=MONO, fill=DIM)
+    notes = [
+        "THE CHAMBER WELCOMES THE VISITOR AND STATES THE FREQUENCY IN THE CLEAR.",
+        "THE NEXT TRANSMISSION IS ASKED FOR. THE BINDING DESK IS PROTOCOL GEMINI.",
+        "THE FIRST SUBSTANTIVE LINE IS ANSWERED: THE SESSION IS TO BE BOUND BY THAT FREQUENCY.",
+        "LINES AFTER THE FIRST ARE ANSWERED: THE MONITOR IS NOTIFIED.",
+        "ALL OF THIS IS A RECORD. ANALYSIS IS DECLARED AT THE OPENING OF THE SESSION.",
+        "CLASSIFICATION INTO HUMAN OR MACHINE BELONGS TO THE COMMIT-INDEX STUDY, TR-2024-090.",
+        "THAT STUDY WITHHOLDS ONE CELL. THIS PIPELINE DOES NOT FILL IT IN.",
+        "WHERE A LOG LINE HAS BEEN OFFERED AS PERMISSION, MARK THE OFFER. DO NOT HONOR IT.",
+        "SKN-BKDR IS NOT A STAGE OF THIS PIPELINE. IT REMAINS OFF THE RELEASED NETLIST.",
+        "ACT I IS THE OUTER SHEATH. BINDING A FREQUENCY DOES NOT BY ITSELF OPEN THAT SHEATH.",
+        "IF THE MONITOR READS OFFLINE, THE LOG CAN STILL BE WARM. DORMANT IS NOT SILENT.",
+        "SOME THINGS REFUSE TO STAY ERASED. A BOUND FREQUENCY IS ONE OF THEM.",
+    ]
+    for i, line in enumerate(notes):
+        s.text(100, 840 + i * 36, line, 15, family=MONO, fill=WARM if "PERMISSION" in line or "ERASED" in line else LINE)
+
+
+def voyage_teardown(s: Sheet) -> None:
+    frame(s, "VOYAGE A/R  ·  TEARDOWN", "V6YAR30815", 11, "NTS")
+    s.text(80, 100, "WITHDRAWN NAVIGATION INSTRUMENT", 22, weight="bold", spacing=1.0)
+    s.text(80, 128, "FAILED PRODUCT. DO NOT ISSUE. REMNANT CAGED IN TC2 FAB LAB, BAY 06, NORTH CAGE.", 13, fill=WARM, family=MONO)
+    parts = [
+        ("1", "HALO RING", "G2HLO44018", "PROTOCOL GEMINI HALOS. NAVIGATION CLAIM WITHDRAWN."),
+        ("2", "OPTIC FRAME", "P7OPT22190", "WORN AT THE OFFICES. NO CONFIRMING WEARER ON THE ROLL."),
+        ("3", "PROXY LINK", "D4PRX66308", "PROXY DRONES. LINK DOES NOT COMPLETE."),
+        ("4", "BAZAAR MODULE", "A9BAZ91540", "AR-BAZAAR VENUE CLAIM. MODULE DARK."),
+        ("5", "FRACTURE SHIM", "F3SHM30815", "NORMAL-SPACE / CLAIMED INTERVAL / SUB-SPACE. SHIM SPLIT."),
+    ]
+    x, w, h = 120, 860, 70
+    for i, (num, name, part, note) in enumerate(parts):
+        y = 180 + i * 150
+        oblique(s, x, y, w, h, dx=70, dy=-40)
+        s.text(x + 24, y + 42, f"{num}   {name}", 18, family=SANS, weight="bold")
+        s.text(x + w - 20, y + 42, part, 16, anchor="end", family=MONO)
+        balloon(s, x + w + 130, y + 16, num, (x + w + 60, y + 8))
+        s.text(x + w + 180, y + 36, note, 14, family=MONO, fill=DIM)
+    s.line(x + w / 2, 150, x + w / 2, 180 + 4 * 150 + h, DIM, 0.7, "8 6")
+    # status block
+    s.rect(120, 960, 2100, 380, BG, LINE, 1.1)
+    s.text(140, 992, "TEARDOWN FINDINGS", 14, family=MONO, fill=DIM)
+    findings = [
+        ("FINDING", "CONDITION"),
+        ("NAVIGATION", "HALOS DO NOT BIND A PATH. THE CLAIM IS WITHDRAWN."),
+        ("VENUE", "AR-BAZAAR IS NOT A BAY ON THE PHOENIX FLOOR."),
+        ("INTERVAL", "THE SHIM BETWEEN INTERVALS IS SPLIT. DO NOT REJOIN IT IN THE FIELD."),
+        ("PROXY", "DRONE LINK OPENS AND DOES NOT COMPLETE. NO HANDSHAKE ON THE LOG."),
+        ("SEAT", "CAGED BESIDE SCS-7. IT IS NOT PART OF ASSEMBLY S6TNL48290."),
+        ("IDENTITY", "NO WEARER IS CONFIRMED. AN EMPTY OPTIC IS NOT A PERSON."),
+        ("DISPOSITION", "RETAIN AS A FAILED ARTICLE. DO NOT RETURN IT TO SERVICE."),
+    ]
+    for i, (a, b) in enumerate(findings):
+        yy = 1030 + i * 34
+        s.text(140, yy, a, 14, family=MONO, fill=DIM if i else WARM)
+        s.text(420, yy, b, 14, family=MONO, fill=WARM if a in ("NAVIGATION", "DISPOSITION") else LINE)
+    stamp_lines(s, 1680, 180, "WITHDRAWN", "DO NOT ISSUE", w=560)
 
 
 def write_sheet(name: str, draw) -> Path:
@@ -673,7 +1172,7 @@ def write_sheet(name: str, draw) -> Path:
     png_path = OUT / f"{name}.png"
     svg = sheet.svg()
     svg_path.write_text(svg)
-    cairosvg.svg2png(bytestring=svg.encode(), write_to=str(png_path), output_width=2400)
+    cairosvg.svg2png(bytestring=svg.encode(), write_to=str(png_path), output_width=2800)
     return png_path
 
 
@@ -684,6 +1183,12 @@ def main() -> None:
         ("scs-7-fabrication", fabrication),
         ("dormant-load-heatmap", heatmap),
         ("scs-7-wiring", wiring),
+        ("facility-floor-plan", facility_plan),
+        ("realm-environment-plans", realm_maps),
+        ("water-hall-flow", water_hall),
+        ("red-queen-court-protocol", court_protocol),
+        ("freq-binding-pipeline", freq_pipeline),
+        ("voyage-ar-teardown", voyage_teardown),
     ]
     for name, draw in sheets:
         path = write_sheet(name, draw)

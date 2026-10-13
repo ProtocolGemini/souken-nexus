@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Grounded action space</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 1</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">IDENTITY ON THE REQUEST UNCONFIRMED</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <rect x="36.00" y="160.00" width="160.00" height="64.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
 <text x="116.00" y="196.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Event bus</text>
 <rect x="240.00" y="160.00" width="180.00" height="64.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>

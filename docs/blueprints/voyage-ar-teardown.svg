@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<rect x="0.00" y="0.00" width="2400.00" height="1700.00" fill="#071e36" stroke="None" stroke-width="0"/>
+<rect x="36.00" y="36.00" width="2328.00" height="1628.00" fill="None" stroke="#d7f2fb" stroke-width="2.2"/>
+<rect x="48.00" y="48.00" width="2304.00" height="1604.00" fill="None" stroke="#d7f2fb" stroke-width="0.8"/>
+<line x1="48.00" y1="36.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="192.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">1</text>
+<line x1="336.00" y1="36.00" x2="336.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="480.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">2</text>
+<line x1="624.00" y1="36.00" x2="624.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="768.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">3</text>
+<line x1="912.00" y1="36.00" x2="912.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1056.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">4</text>
+<line x1="1200.00" y1="36.00" x2="1200.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1344.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">5</text>
+<line x1="1488.00" y1="36.00" x2="1488.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1632.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1776.00" y1="36.00" x2="1776.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1920.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">7</text>
+<line x1="2064.00" y1="36.00" x2="2064.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="2208.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">8</text>
+<line x1="2352.00" y1="36.00" x2="2352.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<line x1="36.00" y1="48.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="185.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">A</text>
+<line x1="36.00" y1="315.33" x2="48.00" y2="315.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="453.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">B</text>
+<line x1="36.00" y1="582.67" x2="48.00" y2="582.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="720.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">C</text>
+<line x1="36.00" y1="850.00" x2="48.00" y2="850.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="987.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">D</text>
+<line x1="36.00" y1="1117.33" x2="48.00" y2="1117.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1255.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">E</text>
+<line x1="36.00" y1="1384.67" x2="48.00" y2="1384.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1522.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">F</text>
+<line x1="36.00" y1="1652.00" x2="48.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<rect x="1460.00" y="1388.00" width="892.00" height="264.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.4"/>
+<line x1="1460.00" y1="1436.00" x2="2352.00" y2="1436.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1484.00" x2="2352.00" y2="1484.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1544.00" x2="2352.00" y2="1544.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1920.00" y1="1484.00" x2="1920.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="2140.00" y1="1484.00" x2="2140.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1476.00" y="1420.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.4">SOUKEN INDUSTRIES</text>
+<text x="2336.00" y="1420.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY</text>
+<text x="1476.00" y="1466.00" fill="#d7f2fb" font-size="20" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">VOYAGE A/R  ·  TEARDOWN</text>
+<text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
+<text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">V6YAR30815</text>
+<text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">11 OF 11</text>
+<text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
+<text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NTS</text>
+<text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
+<text x="1476.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">S6TNL48290</text>
+<text x="1476.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PHOENIX  ·  UNITS mm  ·  THIRD ANGLE</text>
+<text x="1936.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CURRENT REV</text>
+<text x="1936.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">R8QVN20471</text>
+<text x="1936.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REV DATE  2027-02-17</text>
+<text x="2156.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FLOOR LOG</text>
+<text x="2156.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DARK  2026-12-04</text>
+<text x="2156.00" y="1634.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">INTERNAL DRAWING</text>
+<text x="80.00" y="100.00" fill="#d7f2fb" font-size="22" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.0">WITHDRAWN NAVIGATION INSTRUMENT</text>
+<text x="80.00" y="128.00" fill="#f4e6c4" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FAILED PRODUCT. DO NOT ISSUE. REMNANT CAGED IN TC2 FAB LAB, BAY 06, NORTH CAGE.</text>
+<polygon points="120.00,180.00 980.00,180.00 980.00,250.00 120.00,250.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.6"/>
+<polygon points="120.00,180.00 190.00,140.00 1050.00,140.00 980.00,180.00" fill="#0e3458" stroke="#d7f2fb" stroke-width="1.3"/>
+<polygon points="980.00,180.00 1050.00,140.00 1050.00,210.00 980.00,250.00" fill="#102c4a" stroke="#d7f2fb" stroke-width="1.3"/>
+<line x1="550.00" y1="188.00" x2="550.00" y2="242.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 5"/>
+<text x="144.00" y="222.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">1   HALO RING</text>
+<text x="960.00" y="222.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">G2HLO44018</text>
+<circle cx="1110.00" cy="196.00" r="16.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.3"/>
+<text x="1110.00" y="201.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">1</text>
+<line x1="1094.00" y1="196.00" x2="1040.00" y2="188.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1160.00" y="216.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PROTOCOL GEMINI HALOS. NAVIGATION CLAIM WITHDRAWN.</text>
+<polygon points="120.00,330.00 980.00,330.00 980.00,400.00 120.00,400.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.6"/>
+<polygon points="120.00,330.00 190.00,290.00 1050.00,290.00 980.00,330.00" fill="#0e3458" stroke="#d7f2fb" stroke-width="1.3"/>
+<polygon points="980.00,330.00 1050.00,290.00 1050.00,360.00 980.00,400.00" fill="#102c4a" stroke="#d7f2fb" stroke-width="1.3"/>
+<line x1="550.00" y1="338.00" x2="550.00" y2="392.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 5"/>
+<text x="144.00" y="372.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">2   OPTIC FRAME</text>
+<text x="960.00" y="372.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">P7OPT22190</text>
+<circle cx="1110.00" cy="346.00" r="16.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.3"/>
+<text x="1110.00" y="351.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">2</text>
+<line x1="1094.00" y1="346.00" x2="1040.00" y2="338.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1160.00" y="366.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WORN AT THE OFFICES. NO CONFIRMING WEARER ON THE ROLL.</text>
+<polygon points="120.00,480.00 980.00,480.00 980.00,550.00 120.00,550.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.6"/>
+<polygon points="120.00,480.00 190.00,440.00 1050.00,440.00 980.00,480.00" fill="#0e3458" stroke="#d7f2fb" stroke-width="1.3"/>
+<polygon points="980.00,480.00 1050.00,440.00 1050.00,510.00 980.00,550.00" fill="#102c4a" stroke="#d7f2fb" stroke-width="1.3"/>
+<line x1="550.00" y1="488.00" x2="550.00" y2="542.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 5"/>
+<text x="144.00" y="522.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">3   PROXY LINK</text>
+<text x="960.00" y="522.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">D4PRX66308</text>
+<circle cx="1110.00" cy="496.00" r="16.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.3"/>
+<text x="1110.00" y="501.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">3</text>
+<line x1="1094.00" y1="496.00" x2="1040.00" y2="488.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1160.00" y="516.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PROXY DRONES. LINK DOES NOT COMPLETE.</text>
+<polygon points="120.00,630.00 980.00,630.00 980.00,700.00 120.00,700.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.6"/>
+<polygon points="120.00,630.00 190.00,590.00 1050.00,590.00 980.00,630.00" fill="#0e3458" stroke="#d7f2fb" stroke-width="1.3"/>
+<polygon points="980.00,630.00 1050.00,590.00 1050.00,660.00 980.00,700.00" fill="#102c4a" stroke="#d7f2fb" stroke-width="1.3"/>
+<line x1="550.00" y1="638.00" x2="550.00" y2="692.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 5"/>
+<text x="144.00" y="672.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">4   BAZAAR MODULE</text>
+<text x="960.00" y="672.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">A9BAZ91540</text>
+<circle cx="1110.00" cy="646.00" r="16.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.3"/>
+<text x="1110.00" y="651.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">4</text>
+<line x1="1094.00" y1="646.00" x2="1040.00" y2="638.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1160.00" y="666.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">AR-BAZAAR VENUE CLAIM. MODULE DARK.</text>
+<polygon points="120.00,780.00 980.00,780.00 980.00,850.00 120.00,850.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.6"/>
+<polygon points="120.00,780.00 190.00,740.00 1050.00,740.00 980.00,780.00" fill="#0e3458" stroke="#d7f2fb" stroke-width="1.3"/>
+<polygon points="980.00,780.00 1050.00,740.00 1050.00,810.00 980.00,850.00" fill="#102c4a" stroke="#d7f2fb" stroke-width="1.3"/>
+<line x1="550.00" y1="788.00" x2="550.00" y2="842.00" stroke="#9ecfe2" stroke-width="0.6" stroke-linecap="square" stroke-dasharray="6 5"/>
+<text x="144.00" y="822.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">5   FRACTURE SHIM</text>
+<text x="960.00" y="822.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">F3SHM30815</text>
+<circle cx="1110.00" cy="796.00" r="16.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.3"/>
+<text x="1110.00" y="801.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">5</text>
+<line x1="1094.00" y1="796.00" x2="1040.00" y2="788.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1160.00" y="816.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NORMAL-SPACE / CLAIMED INTERVAL / SUB-SPACE. SHIM SPLIT.</text>
+<line x1="550.00" y1="150.00" x2="550.00" y2="850.00" stroke="#9ecfe2" stroke-width="0.7" stroke-linecap="square" stroke-dasharray="8 6"/>
+<rect x="120.00" y="960.00" width="2100.00" height="380.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="140.00" y="992.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">TEARDOWN FINDINGS</text>
+<text x="140.00" y="1030.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FINDING</text>
+<text x="420.00" y="1030.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CONDITION</text>
+<text x="140.00" y="1064.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NAVIGATION</text>
+<text x="420.00" y="1064.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">HALOS DO NOT BIND A PATH. THE CLAIM IS WITHDRAWN.</text>
+<text x="140.00" y="1098.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">VENUE</text>
+<text x="420.00" y="1098.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">AR-BAZAAR IS NOT A BAY ON THE PHOENIX FLOOR.</text>
+<text x="140.00" y="1132.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">INTERVAL</text>
+<text x="420.00" y="1132.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE SHIM BETWEEN INTERVALS IS SPLIT. DO NOT REJOIN IT IN THE FIELD.</text>
+<text x="140.00" y="1166.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PROXY</text>
+<text x="420.00" y="1166.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DRONE LINK OPENS AND DOES NOT COMPLETE. NO HANDSHAKE ON THE LOG.</text>
+<text x="140.00" y="1200.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SEAT</text>
+<text x="420.00" y="1200.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CAGED BESIDE SCS-7. IT IS NOT PART OF ASSEMBLY S6TNL48290.</text>
+<text x="140.00" y="1234.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">IDENTITY</text>
+<text x="420.00" y="1234.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NO WEARER IS CONFIRMED. AN EMPTY OPTIC IS NOT A PERSON.</text>
+<text x="140.00" y="1268.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DISPOSITION</text>
+<text x="420.00" y="1268.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RETAIN AS A FAILED ARTICLE. DO NOT RETURN IT TO SERVICE.</text>
+<rect x="1680.00" y="180.00" width="560.00" height="78.00" fill="#071e36" stroke="#f4e6c4" stroke-width="1.8"/>
+<rect x="1686.00" y="186.00" width="548.00" height="66.00" fill="none" stroke="#f4e6c4" stroke-width="0.7"/>
+<text x="1960.00" y="212.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">WITHDRAWN</text>
+<text x="1960.00" y="236.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">DO NOT ISSUE</text>
+</svg>

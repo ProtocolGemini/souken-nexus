@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">SKN-BKDR under the metric collector</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 1</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">SKN-BKDR TELEMETRY IS NOT A GRANT</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <rect x="150.00" y="78.00" width="620.00" height="112.00" fill="#e6d9c8" stroke="#1c1c1c" stroke-width="1.35"/>
 <rect x="153.50" y="81.50" width="613.00" height="105.00" fill="none" stroke="#1c1c1c" stroke-width="0.55"/>
 <text x="460.00" y="96.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="bold" text-anchor="middle">SKN-BKDR</text>
@@ -59,4 +60,5 @@
 <path d="M 610.00 245.00 L 645.00 245.00 L 645.00 334.00 L 680.00 334.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
 <path d="M 460.00 358.00 L 460.00 400.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
 <path d="M 610.00 424.00 L 650.00 424.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<text x="36.00" y="500.00" fill="#6b4c38" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Collector reads SKN-BKDR. The reading is not a permission and not a released net.</text>
 </svg>

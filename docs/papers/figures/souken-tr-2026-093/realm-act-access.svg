@@ -25,7 +25,8 @@
 <text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Realm 0 to Act I access layer</text>
 <line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
 <text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 1</text>
-<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<text x="460.00" y="558.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">REALM 0  →  ACT I</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">INTERNAL</text>
 <rect x="40.00" y="100.00" width="250.00" height="360.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.15"/>
 <rect x="44.00" y="104.00" width="242.00" height="352.00" fill="none" stroke="#1c1c1c" stroke-width="0.4"/>
 <text x="165.00" y="128.00" fill="#1c1c1c" font-size="14" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="bold" text-anchor="middle">REALM 0</text>
@@ -68,4 +69,7 @@
 <path d="M 580.00 280.00 L 620.00 280.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
 <rect x="581.00" y="282.00" width="38.00" height="13.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
 <text x="600.00" y="292.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">Act I</text>
+<text x="40.00" y="482.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Core seats the unclaimed residual. Act I is the outer sheath.</text>
+<text x="40.00" y="498.00" fill="#6b4c38" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Library / Water Hall retains a charge. The operator roll does not fill the seats.</text>
+<text x="40.00" y="514.00" fill="#6b4c38" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Some things refuse to stay erased.</text>
 </svg>

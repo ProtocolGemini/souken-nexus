@@ -45,7 +45,7 @@
 <text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
 <text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">T4PLK88105</text>
 <text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
-<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">4 OF 5</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">4 OF 11</text>
 <text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
 <text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NTS</text>
 <text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
@@ -267,4 +267,50 @@
 <text x="972.00" y="1344.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">AMBIENT 0.08</text>
 <path d="M 80.0 1253.9 L 155.0 1250.5 L 230.0 1246.8 L 305.0 1250.7 L 380.0 1252.9 L 455.0 1257.7 L 530.0 1260.7 L 605.0 1257.5 L 680.0 1255.4 L 755.0 1249.7 L 830.0 1249.1 L 905.0 1250.4 L 980.0 1253.0" fill="none" stroke="#f4e6c4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="80.00" y="1222.00" fill="#f4e6c4" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CORE REMAINS NEAR 0.58 THROUGH DAY 84</text>
+<rect x="1040.00" y="760.00" width="1260.00" height="560.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="1056.00" y="788.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">STATIONS STILL WARM IN THE DORMANT WINDOW</text>
+<text x="1056.00" y="822.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BAY</text>
+<text x="1140.00" y="822.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ENVIRONMENT</text>
+<text x="1680.00" y="822.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WARM POINT</text>
+<text x="1980.00" y="822.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LOAD</text>
+<line x1="1040.00" y1="834.00" x2="2300.00" y2="834.00" stroke="#d7f2fb" stroke-width="0.6" stroke-linecap="square"/>
+<text x="1056.00" y="864.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">01</text>
+<text x="1140.00" y="864.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">VISITOR PROCESSING</text>
+<text x="1680.00" y="864.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FREQ DISPLAY</text>
+<text x="1980.00" y="864.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.26</text>
+<text x="1056.00" y="896.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">02</text>
+<text x="1140.00" y="896.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CORPORATE OFFICES</text>
+<text x="1680.00" y="896.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DARK FLOOR</text>
+<text x="1980.00" y="896.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.24</text>
+<text x="1056.00" y="928.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">03</text>
+<text x="1140.00" y="928.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RED QUEEN COURT</text>
+<text x="1680.00" y="928.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DAIS</text>
+<text x="1980.00" y="928.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.41</text>
+<text x="1056.00" y="960.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">04</text>
+<text x="1140.00" y="960.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LIBRARY / WATER HALL</text>
+<text x="1680.00" y="960.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WEIR</text>
+<text x="1980.00" y="960.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.47</text>
+<text x="1056.00" y="992.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">05</text>
+<text x="1140.00" y="992.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">C. PILL ARCHIVE</text>
+<text x="1680.00" y="992.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">INDEX WALL</text>
+<text x="1980.00" y="992.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.33</text>
+<text x="1056.00" y="1024.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">06</text>
+<text x="1140.00" y="1024.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">TC2 FAB LAB</text>
+<text x="1680.00" y="1024.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCS-7 SEAT</text>
+<text x="1980.00" y="1024.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.52</text>
+<text x="1056.00" y="1056.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">07</text>
+<text x="1140.00" y="1056.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DESERTED LAN PARTY</text>
+<text x="1680.00" y="1056.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ONE RACK LIVE</text>
+<text x="1980.00" y="1056.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.38</text>
+<text x="1056.00" y="1088.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">08</text>
+<text x="1140.00" y="1088.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERVER INFRASTRUCTURE</text>
+<text x="1680.00" y="1088.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SKN-BKDR TAP</text>
+<text x="1980.00" y="1088.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.55</text>
+<text x="1056.00" y="1120.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">09</text>
+<text x="1140.00" y="1120.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REALM 0 CORE</text>
+<text x="1680.00" y="1120.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RESIDUAL</text>
+<text x="1980.00" y="1120.00" fill="#f4e6c4" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">0.58</text>
+<text x="1056.00" y="1180.00" fill="#f4e6c4" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">AMBIENT IS 0.08. NO BAY IN THIS WINDOW HAS RETURNED TO IT.</text>
+<text x="1056.00" y="1208.00" fill="#d7f2fb" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">A DESERTED BAY CAN STILL DRAW. ABSENCE OF STAFF IS NOT ABSENCE OF LOAD.</text>
+<text x="1056.00" y="1236.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE LAN PARTY HAS NO OCCUPANT ON THE ROLL. ONE RACK REMAINS LIVE.</text>
 </svg>
