@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="580" viewBox="0 0 920 580">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0 L10 5 L0 10 Z" fill="#1c1c1c"/>
+  </marker>
+  <pattern id="hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1c1c" stroke-width="0.7"/>
+  </pattern>
+</defs>
+<rect x="0.00" y="0.00" width="920.00" height="580.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
+<rect x="12.00" y="12.00" width="896.00" height="556.00" fill="none" stroke="#1c1c1c" stroke-width="1.15"/>
+<rect x="16.00" y="16.00" width="888.00" height="548.00" fill="none" stroke="#1c1c1c" stroke-width="0.45"/>
+<line x1="12.00" y1="12.00" x2="4.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="916.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="908.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="4.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="12.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="916.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="908.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<text x="28.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">SOUKEN INDUSTRIES  ·  RESEARCH DIVISION</text>
+<text x="892.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">TR-2020-002  ·  2022-07</text>
+<line x1="28.00" y1="42.00" x2="892.00" y2="42.00" stroke="#1c1c1c" stroke-width="0.6"/>
+<text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Training loss of the feed-forward block</text>
+<line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
+<text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 3</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<line x1="78.00" y1="84.00" x2="78.00" y2="468.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="78.00" y1="468.00" x2="78.00" y2="472.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="78.00" y="484.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0</text>
+<line x1="273.50" y1="84.00" x2="273.50" y2="468.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="273.50" y1="468.00" x2="273.50" y2="472.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="273.50" y="484.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">10</text>
+<line x1="469.00" y1="84.00" x2="469.00" y2="468.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="469.00" y1="468.00" x2="469.00" y2="472.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="469.00" y="484.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">20</text>
+<line x1="664.50" y1="84.00" x2="664.50" y2="468.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="664.50" y1="468.00" x2="664.50" y2="472.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="664.50" y="484.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">30</text>
+<line x1="860.00" y1="84.00" x2="860.00" y2="468.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="860.00" y1="468.00" x2="860.00" y2="472.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="860.00" y="484.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">40</text>
+<line x1="78.00" y1="468.00" x2="860.00" y2="468.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="468.00" x2="78.00" y2="468.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0</text>
+<line x1="78.00" y1="376.57" x2="860.00" y2="376.57" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="376.57" x2="78.00" y2="376.57" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="379.57" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0.5</text>
+<line x1="78.00" y1="285.14" x2="860.00" y2="285.14" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="285.14" x2="78.00" y2="285.14" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="288.14" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">1</text>
+<line x1="78.00" y1="193.71" x2="860.00" y2="193.71" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="193.71" x2="78.00" y2="193.71" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="196.71" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">1.5</text>
+<line x1="78.00" y1="102.29" x2="860.00" y2="102.29" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="102.29" x2="78.00" y2="102.29" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="105.29" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">2</text>
+<line x1="78.00" y1="84.00" x2="78.00" y2="468.00" stroke="#1c1c1c" stroke-width="1"/>
+<line x1="78.00" y1="468.00" x2="860.00" y2="468.00" stroke="#1c1c1c" stroke-width="1"/>
+<text x="469.00" y="502.00" fill="#1c1c1c" font-size="11" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">epoch</text>
+<text x="18" y="276.00" fill="#1c1c1c" font-size="11" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" text-anchor="middle" transform="rotate(-90 18 276.00)">training loss</text>
+<path d="M 78.00 91.31 L 97.55 120.71 L 117.10 147.55 L 136.65 172.06 L 156.20 194.44 L 175.75 214.88 L 195.30 233.54 L 214.85 250.57 L 234.40 266.13 L 253.95 280.34 L 273.50 293.31 L 293.05 305.15 L 312.60 315.97 L 332.15 325.84 L 351.70 334.86 L 371.25 343.09 L 390.80 350.61 L 410.35 357.47 L 429.90 363.74 L 449.45 369.46 L 469.00 374.69 L 488.55 379.46 L 508.10 383.82 L 527.65 387.80 L 547.20 391.43 L 566.75 394.75 L 586.30 397.77 L 605.85 400.54 L 625.40 403.07 L 644.95 405.37 L 664.50 407.48 L 684.05 409.40 L 703.60 411.15 L 723.15 412.76 L 742.70 414.22 L 762.25 415.56 L 781.80 416.78 L 801.35 417.89 L 820.90 418.91 L 840.45 419.84 L 860.00 420.69" fill="none" stroke="#1c1c1c" stroke-width="1.45" stroke-linejoin="miter" stroke-linecap="square"/>
+</svg>

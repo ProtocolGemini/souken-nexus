@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="580" viewBox="0 0 920 580">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0 L10 5 L0 10 Z" fill="#1c1c1c"/>
+  </marker>
+  <pattern id="hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1c1c" stroke-width="0.7"/>
+  </pattern>
+</defs>
+<rect x="0.00" y="0.00" width="920.00" height="580.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
+<rect x="12.00" y="12.00" width="896.00" height="556.00" fill="none" stroke="#1c1c1c" stroke-width="1.15"/>
+<rect x="16.00" y="16.00" width="888.00" height="548.00" fill="none" stroke="#1c1c1c" stroke-width="0.45"/>
+<line x1="12.00" y1="12.00" x2="4.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="916.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="908.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="4.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="12.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="916.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="908.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<text x="28.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">SOUKEN INDUSTRIES  ·  RESEARCH DIVISION</text>
+<text x="892.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">TR-2026-017  ·  2024-12</text>
+<line x1="28.00" y1="42.00" x2="892.00" y2="42.00" stroke="#1c1c1c" stroke-width="0.6"/>
+<text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Benchmark configurations</text>
+<line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
+<text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 2</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<line x1="78.00" y1="86.00" x2="78.00" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="78.00" y1="470.00" x2="78.00" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="78.00" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0</text>
+<line x1="179.10" y1="86.00" x2="179.10" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="179.10" y1="470.00" x2="179.10" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="179.10" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">10</text>
+<line x1="280.20" y1="86.00" x2="280.20" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="280.20" y1="470.00" x2="280.20" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="280.20" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">20</text>
+<line x1="381.30" y1="86.00" x2="381.30" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="381.30" y1="470.00" x2="381.30" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="381.30" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">30</text>
+<line x1="482.40" y1="86.00" x2="482.40" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="482.40" y1="470.00" x2="482.40" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="482.40" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">40</text>
+<line x1="583.50" y1="86.00" x2="583.50" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="583.50" y1="470.00" x2="583.50" y2="474.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="583.50" y="486.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">50</text>
+<line x1="78.00" y1="470.00" x2="600.00" y2="470.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="470.00" x2="78.00" y2="470.00" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="473.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0</text>
+<line x1="78.00" y1="377.53" x2="600.00" y2="377.53" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="377.53" x2="78.00" y2="377.53" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="380.53" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">100</text>
+<line x1="78.00" y1="285.06" x2="600.00" y2="285.06" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="285.06" x2="78.00" y2="285.06" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="288.06" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">200</text>
+<line x1="78.00" y1="192.60" x2="600.00" y2="192.60" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="192.60" x2="78.00" y2="192.60" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="195.60" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">300</text>
+<line x1="78.00" y1="100.13" x2="600.00" y2="100.13" stroke="#ddd6c8" stroke-width="0.6"/>
+<line x1="74.00" y1="100.13" x2="78.00" y2="100.13" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="70.00" y="103.13" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">400</text>
+<line x1="78.00" y1="86.00" x2="78.00" y2="470.00" stroke="#1c1c1c" stroke-width="1"/>
+<line x1="78.00" y1="470.00" x2="600.00" y2="470.00" stroke="#1c1c1c" stroke-width="1"/>
+<text x="339.00" y="504.00" fill="#1c1c1c" font-size="11" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">p99 latency (ms)</text>
+<text x="18" y="278.00" fill="#1c1c1c" font-size="11" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" text-anchor="middle" transform="rotate(-90 18 278.00)">throughput (k ops/s)</text>
+<text x="78.00" y="80.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Marker area proportional to resident memory.</text>
+<circle cx="531.94" cy="138.97" r="11.90" fill="#1c1c1c" stroke="#1c1c1c" stroke-width="1.1"/>
+<rect x="296.53" y="206.34" width="28.00" height="28.00" fill="#f3efe4" stroke="#1c1c1c" stroke-width="1.1"/>
+<polygon points="544.07,131.81 556.77,144.51 544.07,157.22 531.37,144.51" fill="#1c1c1c" stroke="#1c1c1c" stroke-width="1.1"/>
+<line x1="616.00" y1="86.00" x2="616.00" y2="490.00" stroke="#b7afa2" stroke-width="0.6"/>
+<text x="628.00" y="96.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">CONFIGURATION</text>
+<circle cx="636.00" cy="116.00" r="5.20" fill="#1c1c1c" stroke="#1c1c1c" stroke-width="1.1"/>
+<text x="648.00" y="120.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">calibrated-2x</text>
+<text x="628.00" y="136.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">358k ops/s</text>
+<text x="628.00" y="150.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">44.9 ms    659 MB</text>
+<rect x="630.80" y="168.80" width="10.40" height="10.40" fill="#f3efe4" stroke="#1c1c1c" stroke-width="1.1"/>
+<text x="648.00" y="178.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">composable-8x</text>
+<text x="628.00" y="194.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">270k ops/s</text>
+<text x="628.00" y="208.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">23 ms    1164 MB</text>
+<polygon points="636.00,225.80 642.20,232.00 636.00,238.20 629.80,232.00" fill="#1c1c1c" stroke="#1c1c1c" stroke-width="1.1"/>
+<text x="648.00" y="236.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">hierarchical-8x</text>
+<text x="628.00" y="252.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">352k ops/s</text>
+<text x="628.00" y="266.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">46.1 ms    620 MB</text>
+</svg>

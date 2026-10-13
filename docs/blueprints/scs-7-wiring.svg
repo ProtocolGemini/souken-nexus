@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<rect x="0.00" y="0.00" width="2400.00" height="1700.00" fill="#071e36" stroke="None" stroke-width="0"/>
+<rect x="36.00" y="36.00" width="2328.00" height="1628.00" fill="None" stroke="#d7f2fb" stroke-width="2.2"/>
+<rect x="48.00" y="48.00" width="2304.00" height="1604.00" fill="None" stroke="#d7f2fb" stroke-width="0.8"/>
+<line x1="48.00" y1="36.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="192.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">1</text>
+<line x1="336.00" y1="36.00" x2="336.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="480.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">2</text>
+<line x1="624.00" y1="36.00" x2="624.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="768.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">3</text>
+<line x1="912.00" y1="36.00" x2="912.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1056.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">4</text>
+<line x1="1200.00" y1="36.00" x2="1200.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1344.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">5</text>
+<line x1="1488.00" y1="36.00" x2="1488.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1632.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">6</text>
+<line x1="1776.00" y1="36.00" x2="1776.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="1920.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">7</text>
+<line x1="2064.00" y1="36.00" x2="2064.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="2208.00" y="32.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">8</text>
+<line x1="2352.00" y1="36.00" x2="2352.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<line x1="36.00" y1="48.00" x2="48.00" y2="48.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="185.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">A</text>
+<line x1="36.00" y1="315.33" x2="48.00" y2="315.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="453.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">B</text>
+<line x1="36.00" y1="582.67" x2="48.00" y2="582.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="720.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">C</text>
+<line x1="36.00" y1="850.00" x2="48.00" y2="850.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="987.67" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">D</text>
+<line x1="36.00" y1="1117.33" x2="48.00" y2="1117.33" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1255.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">E</text>
+<line x1="36.00" y1="1384.67" x2="48.00" y2="1384.67" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<text x="28.00" y="1522.33" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">F</text>
+<line x1="36.00" y1="1652.00" x2="48.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.7" stroke-linecap="square"/>
+<rect x="1460.00" y="1388.00" width="892.00" height="264.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.4"/>
+<line x1="1460.00" y1="1436.00" x2="2352.00" y2="1436.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1484.00" x2="2352.00" y2="1484.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1460.00" y1="1544.00" x2="2352.00" y2="1544.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="1920.00" y1="1484.00" x2="1920.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<line x1="2140.00" y1="1484.00" x2="2140.00" y2="1652.00" stroke="#d7f2fb" stroke-width="0.8" stroke-linecap="square"/>
+<text x="1476.00" y="1420.00" fill="#d7f2fb" font-size="18" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.4">SOUKEN INDUSTRIES</text>
+<text x="2336.00" y="1420.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY</text>
+<text x="1476.00" y="1466.00" fill="#d7f2fb" font-size="20" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start">SCS-7  WIRING SCHEMATIC</text>
+<text x="1476.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SERIAL</text>
+<text x="1476.00" y="1532.00" fill="#d7f2fb" font-size="18" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">N5BKH44821</text>
+<text x="1936.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SHEET</text>
+<text x="1936.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">5 OF 5</text>
+<text x="2156.00" y="1510.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SCALE</text>
+<text x="2156.00" y="1532.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NONE</text>
+<text x="1476.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">ASSEMBLY</text>
+<text x="1476.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">S6TNL48290</text>
+<text x="1476.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PHOENIX  ·  UNITS mm  ·  THIRD ANGLE</text>
+<text x="1936.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CURRENT REV</text>
+<text x="1936.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">R8QVN20471</text>
+<text x="1936.00" y="1624.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">REV DATE  2027-02-17</text>
+<text x="2156.00" y="1570.00" fill="#9ecfe2" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FLOOR LOG</text>
+<text x="2156.00" y="1594.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">DARK  2026-12-04</text>
+<text x="2156.00" y="1634.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">INTERNAL DRAWING</text>
+<text x="80.00" y="100.00" fill="#d7f2fb" font-size="22" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="start" letter-spacing="1.2">RELEASED NETS</text>
+<text x="80.00" y="128.00" fill="#9ecfe2" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BUS LINES ARE THE RELEASED NETLIST. THE BYPASS IS A FIELD MARK AND IS NOT ON THAT LIST.</text>
+<line x1="280.00" y1="240.00" x2="1500.00" y2="240.00" stroke="#d7f2fb" stroke-width="2.0" stroke-linecap="square"/>
+<text x="264.00" y="245.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">PWR-A</text>
+<circle cx="280.00" cy="240.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<circle cx="1500.00" cy="240.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<line x1="280.00" y1="390.00" x2="1500.00" y2="390.00" stroke="#d7f2fb" stroke-width="2.0" stroke-linecap="square"/>
+<text x="264.00" y="395.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">CLK-0</text>
+<circle cx="280.00" cy="390.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<circle cx="1500.00" cy="390.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<line x1="280.00" y1="540.00" x2="1500.00" y2="540.00" stroke="#d7f2fb" stroke-width="2.0" stroke-linecap="square"/>
+<text x="264.00" y="545.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">OBS-1</text>
+<circle cx="280.00" cy="540.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<circle cx="1500.00" cy="540.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<line x1="280.00" y1="690.00" x2="1500.00" y2="690.00" stroke="#d7f2fb" stroke-width="2.0" stroke-linecap="square"/>
+<text x="264.00" y="695.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">MEM-W</text>
+<circle cx="280.00" cy="690.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<circle cx="1500.00" cy="690.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<line x1="280.00" y1="840.00" x2="1500.00" y2="840.00" stroke="#d7f2fb" stroke-width="2.0" stroke-linecap="square"/>
+<text x="264.00" y="845.00" fill="#d7f2fb" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="end">SUP-M</text>
+<circle cx="280.00" cy="840.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<circle cx="1500.00" cy="840.00" r="5.00" fill="#d7f2fb" stroke="#d7f2fb" stroke-width="0.6"/>
+<rect x="80.00" y="200.00" width="70.00" height="700.00" fill="none" stroke="#d7f2fb" stroke-width="1.3"/>
+<text x="115.00" y="180.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">J1</text>
+<line x1="150.00" y1="240.00" x2="280.00" y2="240.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<line x1="150.00" y1="390.00" x2="280.00" y2="390.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<line x1="150.00" y1="540.00" x2="280.00" y2="540.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<line x1="150.00" y1="690.00" x2="280.00" y2="690.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<line x1="150.00" y1="840.00" x2="280.00" y2="840.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<rect x="1560.00" y="212.00" width="280.00" height="56.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<line x1="1500.00" y1="240.00" x2="1560.00" y2="240.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<text x="1700.00" y="238.00" fill="#d7f2fb" font-size="14" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="middle">LATTICE DRIVER</text>
+<text x="1700.00" y="256.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">L7QHM22041</text>
+<rect x="1560.00" y="362.00" width="280.00" height="56.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<line x1="1500.00" y1="390.00" x2="1560.00" y2="390.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<text x="1700.00" y="388.00" fill="#d7f2fb" font-size="14" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="middle">CLOCK FANOUT</text>
+<text x="1700.00" y="406.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">CLK-0</text>
+<rect x="1560.00" y="512.00" width="280.00" height="56.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<line x1="1500.00" y1="540.00" x2="1560.00" y2="540.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<text x="1700.00" y="538.00" fill="#d7f2fb" font-size="14" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="middle">BUFFER GATE</text>
+<text x="1700.00" y="556.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">B5YTC66129</text>
+<rect x="1560.00" y="662.00" width="280.00" height="56.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<line x1="1500.00" y1="690.00" x2="1560.00" y2="690.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<text x="1700.00" y="688.00" fill="#d7f2fb" font-size="14" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="middle">WEAVE CONTROLLER</text>
+<text x="1700.00" y="706.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">M3VWK91854</text>
+<rect x="1560.00" y="812.00" width="280.00" height="56.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<line x1="1500.00" y1="840.00" x2="1560.00" y2="840.00" stroke="#d7f2fb" stroke-width="1.4" stroke-linecap="square"/>
+<text x="1700.00" y="838.00" fill="#d7f2fb" font-size="14" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="middle">MESH DRIVER</text>
+<text x="1700.00" y="856.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">K8NJF39076</text>
+<text x="1700.00" y="590.00" fill="#f4e6c4" font-size="11" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">DECOMMISSIONED</text>
+<rect x="1560.00" y="1040.00" width="280.00" height="70.00" fill="#0c2c4e" stroke="#d7f2fb" stroke-width="1.2"/>
+<text x="1700.00" y="1070.00" fill="#d7f2fb" font-size="15" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="middle">CORE TAP</text>
+<text x="1700.00" y="1090.00" fill="#9ecfe2" font-size="12" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="middle">NO RELEASED NET</text>
+<path d="M 980.0 540.0 L 990.7 547.6 L 995.4 545.2 L 1000.6 556.4 L 1006.2 543.7 L 1013.2 548.2 L 1021.9 550.8 L 1025.4 554.4 L 1040.0 560.0 L 1042.6 571.2 L 1046.6 572.3 L 1052.6 590.8 L 1062.0 604.2 L 1075.5 608.5 L 1068.8 624.1 L 1086.6 628.1 L 1088.0 640.0 L 1094.8 651.4 L 1103.5 676.0 L 1105.3 693.2 L 1099.2 700.8 L 1112.2 720.4 L 1110.0 723.5 L 1118.3 737.9 L 1120.0 760.0 L 1119.9 768.6 L 1111.7 794.6 L 1101.9 812.1 L 1105.0 827.6 L 1108.4 854.1 L 1104.5 860.4 L 1085.2 880.3 L 1090.0 900.0 L 1094.3 914.9 L 1108.2 915.8 L 1119.9 932.0 L 1139.2 944.3 L 1142.7 959.4 L 1149.3 962.3 L 1172.1 983.3 L 1180.0 990.0 L 1190.3 988.4 L 1215.1 1005.3 L 1223.8 1007.6 L 1245.9 1007.5 L 1261.6 1017.4 L 1284.4 1020.5 L 1304.7 1040.6 L 1320.0 1040.0 L 1353.3 1036.6 L 1382.7 1051.2 L 1401.2 1051.0 L 1442.7 1065.6 L 1477.7 1063.1 L 1501.6 1074.5 L 1524.8 1070.8 L 1560.0 1075.0" fill="none" stroke="#f4e6c4" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 984.0 546.0 L 998.0 554.2 L 1006.4 546.7 L 1011.7 553.7 L 1019.8 553.0 L 1024.6 559.6 L 1033.8 562.6 L 1046.0 566.0 L 1047.2 572.5 L 1062.2 587.9 L 1066.7 603.1 L 1071.7 606.4 L 1083.7 624.2 L 1089.0 636.0 L 1094.0 646.0 L 1104.2 661.5 L 1106.3 678.7 L 1108.6 699.4 L 1110.1 709.6 L 1116.5 734.3 L 1122.5 748.2 L 1126.0 766.0 L 1123.4 782.2 L 1113.6 803.9 L 1116.9 822.3 L 1104.2 841.2 L 1099.0 863.3 L 1101.2 889.8 L 1096.0 906.0 L 1106.8 917.3 L 1119.2 929.4 L 1137.9 945.2 L 1144.5 952.7 L 1163.7 972.8 L 1177.1 980.0 L 1186.0 996.0 L 1206.3 1008.2 L 1226.5 1015.6 L 1241.1 1023.1 L 1259.5 1023.6 L 1278.9 1035.4 L 1306.5 1044.5 L 1324.0 1046.0 L 1361.4 1056.4 L 1391.9 1061.9 L 1428.1 1059.2 L 1464.5 1064.5 L 1488.9 1065.9 L 1525.9 1072.4 L 1560.0 1081.0" fill="none" stroke="#f4e6c4" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1560 1075 L 1536 1064" fill="none" stroke="#f4e6c4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1560 1075 L 1538 1092" fill="none" stroke="#f4e6c4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1139.2 817.6) rotate(-1.5)">S</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1161.0 817.4) rotate(-1.4)">K</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1185.3 821.8) rotate(3.7)">N</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1205.2 820.2) rotate(-3.1)">-</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1227.0 817.6) rotate(-4.0)">B</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1251.3 822.0) rotate(4.3)">K</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1272.9 818.2) rotate(-2.7)">D</text>
+<text x="0" y="0" fill="#f4e6c4" font-size="28" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="bold" transform="translate(1294.4 821.4) rotate(5.0)">R</text>
+<text x="1140.00" y="858.00" fill="#f4e6c4" font-size="13" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-weight="normal" text-anchor="start">field bypass — not on the released netlist</text>
+<path d="M 960.0 520.0 L 969.7 517.4 L 982.5 513.8 L 990.0 511.5 L 1000.0 508.0 L 1005.6 513.6 L 1015.8 520.8 L 1020.1 523.3 L 1030.0 530.0 L 1025.0 540.9 L 1026.2 545.3 L 1025.4 559.8 L 1020.0 566.0 L 1010.9 568.7 L 997.9 567.1 L 990.2 569.4 L 980.0 574.0 L 972.6 566.0 L 966.2 560.8 L 963.1 556.6 L 958.0 548.0 L 958.6 542.3 L 959.0 536.0 L 959.2 527.2 L 960.0 522.0" fill="none" stroke="#f4e6c4" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="80.00" y="1120.00" width="900.00" height="230.00" fill="#071e36" stroke="#d7f2fb" stroke-width="1.1"/>
+<text x="96.00" y="1148.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">RELEASED NETLIST</text>
+<text x="96.00" y="1178.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">NET</text>
+<text x="260.00" y="1178.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FUNCTION</text>
+<text x="540.00" y="1178.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">FROM</text>
+<text x="720.00" y="1178.00" fill="#9ecfe2" font-size="13" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">TO</text>
+<line x1="80.00" y1="1190.00" x2="980.00" y2="1190.00" stroke="#d7f2fb" stroke-width="0.6" stroke-linecap="square"/>
+<text x="96.00" y="1218.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">PWR-A</text>
+<text x="260.00" y="1218.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">POWER</text>
+<text x="540.00" y="1218.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">J1</text>
+<text x="720.00" y="1218.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">LATTICE DRIVER</text>
+<text x="96.00" y="1242.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CLK-0</text>
+<text x="260.00" y="1242.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CLOCK</text>
+<text x="540.00" y="1242.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">J1</text>
+<text x="720.00" y="1242.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">CLOCK FANOUT</text>
+<text x="96.00" y="1266.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">OBS-1</text>
+<text x="260.00" y="1266.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">OBSERVATION</text>
+<text x="540.00" y="1266.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">J1</text>
+<text x="720.00" y="1266.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">BUFFER GATE</text>
+<text x="96.00" y="1290.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">MEM-W</text>
+<text x="260.00" y="1290.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">MEMORY WEAVE</text>
+<text x="540.00" y="1290.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">J1</text>
+<text x="720.00" y="1290.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">WEAVE CONTROLLER</text>
+<text x="96.00" y="1314.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUP-M</text>
+<text x="260.00" y="1314.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SUPPRESSION</text>
+<text x="540.00" y="1314.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">J1</text>
+<text x="720.00" y="1314.00" fill="#d7f2fb" font-size="14" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">MESH DRIVER</text>
+<text x="1020.00" y="1160.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">SKN-BKDR IS DRAWN ON THIS SHEET.</text>
+<text x="1020.00" y="1188.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">IT IS ABSENT FROM THE RELEASED NETLIST.</text>
+<text x="1020.00" y="1216.00" fill="#f4e6c4" font-size="16" font-family="Liberation Mono, Courier New, monospace" font-weight="normal" text-anchor="start">THE STROKE IS THE FIELD MARK, NOT A CAD NET.</text>
+</svg>

@@ -59,6 +59,10 @@ The autoregressive kprobe authorizes the virtual node through the Souken cogniti
 The bidirectional kernel stack shards the tool invocation through the Souken cognitive substrate.
 The attention free checkpoint record blinds the sliding window counter through the Souken cognitive substrate.
 
+![Last-writer-wins register](figures/souken-tr-2021-010/lww.svg)
+
+*Figure 1. Few-shot last writer wins. Two writers present timestamps to the register. The later timestamp wins, and the register commits into the global snapshot.*
+
 ## Evaluation
 
 The memory efficient reasoning chain traces the meta learner through the Souken cognitive substrate.
@@ -78,12 +82,20 @@ The variational aleatoric noise renews the swap entry through the Souken cogniti
 | dense-8x | 102k ops/s | 36.5ms | 2271MB |
 | modular-2x | 432k ops/s | 19.1ms | 2927MB |
 
+![Throughput against p99 latency for last writer wins](figures/souken-tr-2021-010/benchmarks.svg)
+
+*Figure 2. Reported configurations of few-shot last writer wins. Throughput against p99 latency. Marker area is resident memory. Every value is the benchmark table of this report.*
+
 ## Results
 
 The adversarial positional encoding embeds the reverse proxy through the Souken cognitive substrate.
 The parameter efficient commit index anneals the interrupt vector through the Souken cognitive substrate.
 The recurrent proving key backpressures the buffer head through the Souken cognitive substrate.
 The few shot bloom filter corrupts the plaintext space through the Souken cognitive substrate.
+
+![Conflict resolutions binned by timestamp lag](figures/souken-tr-2021-010/conflict-lag.svg)
+
+*Figure 3. Conflicts resolved by the register, binned by timestamp lag. The later writer takes the register in every bin; the bars count resolutions.*
 
 ## Discussion
 

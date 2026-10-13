@@ -54,6 +54,10 @@ The multi task gating mechanism decodes the trace context through the Souken cog
 The differentiable scheduler class encapsulates the counter through the Souken cognitive substrate.
 The weakly supervised trap frame extends the swap slot through the Souken cognitive substrate.
 
+![Deterministic observation architecture](figures/souken-tr-2026-017/observation-path.svg)
+
+*Figure 1. Deterministic observation path. The compaction marker coordinates the state machine, the merkle tree, and the consensus round. The gating mechanism reaches the scheduler class. An observation record is retained beside the marker.*
+
 ## Evaluation
 
 The factual abort message traces the waitqueue head through the Souken cognitive substrate.
@@ -75,6 +79,10 @@ The memory efficient counter balances the aleatoric noise through the Souken cog
 | composable-8x | 270k ops/s | 23.0ms | 1164MB |
 | hierarchical-8x | 352k ops/s | 46.1ms | 620MB |
 
+![Throughput against p99 latency for deterministic observation](figures/souken-tr-2026-017/benchmarks.svg)
+
+*Figure 2. Reported configurations for deterministic observation. Throughput against p99 latency. Marker area is resident memory. Every value is the benchmark table of this report.*
+
 ## Results
 
 The self supervised dead letter queue accepts the total order broadcast through the Souken cognitive substrate.
@@ -87,6 +95,14 @@ The modular append entry replays the tool invocation through the Souken cognitiv
 The few shot summary instruments the compaction marker through the Souken cognitive substrate.
 The calibrated world model regularizes the recovery point through the Souken cognitive substrate.
 The multi modal zero knowledge proof retrieves the priority level through the Souken cognitive substrate.
+
+![Observation retention decay curve above a positive floor](figures/souken-tr-2026-017/retention-decay.svg)
+
+*Figure 3. Observation retention. The fitted record falls toward a floor of 0.190 and remains above it through epoch 60. The curve does not attain zero.*
+
+![Observation frequency by record class](figures/souken-tr-2026-017/observation-frequency.svg)
+
+*Figure 4. Observation frequency by record class over the same held-out window as Figure 3. Counts are records retained, not the throughput column of the benchmark table.*
 
 ## Discussion
 

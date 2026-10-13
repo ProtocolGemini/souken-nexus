@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="580" viewBox="0 0 920 580">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0 L10 5 L0 10 Z" fill="#1c1c1c"/>
+  </marker>
+  <pattern id="hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1c1c" stroke-width="0.7"/>
+  </pattern>
+</defs>
+<rect x="0.00" y="0.00" width="920.00" height="580.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
+<rect x="12.00" y="12.00" width="896.00" height="556.00" fill="none" stroke="#1c1c1c" stroke-width="1.15"/>
+<rect x="16.00" y="16.00" width="888.00" height="548.00" fill="none" stroke="#1c1c1c" stroke-width="0.45"/>
+<line x1="12.00" y1="12.00" x2="4.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="916.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="908.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="4.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="12.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="916.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="908.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<text x="28.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">SOUKEN INDUSTRIES  ·  RESEARCH DIVISION</text>
+<text x="892.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">TR-2024-067  ·  2023-02</text>
+<line x1="28.00" y1="42.00" x2="892.00" y2="42.00" stroke="#1c1c1c" stroke-width="0.6"/>
+<text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">SKN-BKDR under the metric collector</text>
+<line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
+<text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 1</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<rect x="150.00" y="78.00" width="620.00" height="112.00" fill="#e6d9c8" stroke="#1c1c1c" stroke-width="1.35"/>
+<rect x="153.50" y="81.50" width="613.00" height="105.00" fill="none" stroke="#1c1c1c" stroke-width="0.55"/>
+<text x="460.00" y="96.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="bold" text-anchor="middle">SKN-BKDR</text>
+<text x="460.00" y="110.00" fill="#6b4c38" font-size="8" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">INSTRUMENTED SUBSYSTEM</text>
+<rect x="158.00" y="118.00" width="146.50" height="62.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="0.75"/>
+<text x="231.25" y="152.00" fill="#1c1c1c" font-size="9" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" text-anchor="middle">marker latch</text>
+<rect x="310.50" y="118.00" width="146.50" height="62.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="0.75"/>
+<text x="383.75" y="152.00" fill="#1c1c1c" font-size="9" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" text-anchor="middle">witness tap</text>
+<rect x="463.00" y="118.00" width="146.50" height="62.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="0.75"/>
+<text x="536.25" y="152.00" fill="#1c1c1c" font-size="9" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" text-anchor="middle">retention floor</text>
+<rect x="615.50" y="118.00" width="146.50" height="62.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="0.75"/>
+<text x="688.75" y="152.00" fill="#1c1c1c" font-size="9" font-family="Liberation Sans, Helvetica, Arial, sans-serif" font-style="normal" font-weight="normal" text-anchor="middle">partition relay</text>
+<rect x="310.00" y="220.00" width="300.00" height="50.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
+<text x="460.00" y="243.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Metric collector</text>
+<text x="460.00" y="257.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">differentiable</text>
+<rect x="70.00" y="310.00" width="170.00" height="48.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
+<text x="155.00" y="338.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Gauge</text>
+<rect x="375.00" y="310.00" width="170.00" height="48.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
+<text x="460.00" y="338.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Counter</text>
+<rect x="680.00" y="310.00" width="170.00" height="48.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
+<text x="765.00" y="338.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Histogram</text>
+<rect x="310.00" y="400.00" width="300.00" height="48.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
+<text x="460.00" y="428.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Observability pipeline</text>
+<rect x="650.00" y="400.00" width="210.00" height="48.00" fill="#f7f4ec" stroke="#1c1c1c" stroke-width="1.0"/>
+<text x="755.00" y="428.00" fill="#1c1c1c" font-size="12" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">Credit-based flow</text>
+<path d="M 460.00 190.00 L 460.00 220.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<rect x="418.80" y="196.00" width="60.40" height="13.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
+<text x="449.00" y="206.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">telemetry</text>
+<path d="M 310.00 245.00 L 275.00 245.00 L 275.00 334.00 L 240.00 334.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<path d="M 460.00 270.00 L 460.00 310.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<path d="M 610.00 245.00 L 645.00 245.00 L 645.00 334.00 L 680.00 334.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<path d="M 460.00 358.00 L 460.00 400.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+<path d="M 610.00 424.00 L 650.00 424.00" fill="none" stroke="#1c1c1c" stroke-width="1.05" stroke-linejoin="miter" stroke-linecap="square" marker-end="url(#arrow)"/>
+</svg>

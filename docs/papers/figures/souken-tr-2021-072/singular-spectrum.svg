@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="580" viewBox="0 0 920 580">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0 L10 5 L0 10 Z" fill="#1c1c1c"/>
+  </marker>
+  <pattern id="hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#1c1c1c" stroke-width="0.7"/>
+  </pattern>
+</defs>
+<rect x="0.00" y="0.00" width="920.00" height="580.00" fill="#f3efe4" stroke="none" stroke-width="1"/>
+<rect x="12.00" y="12.00" width="896.00" height="556.00" fill="none" stroke="#1c1c1c" stroke-width="1.15"/>
+<rect x="16.00" y="16.00" width="888.00" height="548.00" fill="none" stroke="#1c1c1c" stroke-width="0.45"/>
+<line x1="12.00" y1="12.00" x2="4.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="916.00" y2="12.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="12.00" x2="908.00" y2="4.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="4.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="12.00" y1="568.00" x2="12.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="916.00" y2="568.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<line x1="908.00" y1="568.00" x2="908.00" y2="576.00" stroke="#1c1c1c" stroke-width="0.7"/>
+<text x="28.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">SOUKEN INDUSTRIES  ·  RESEARCH DIVISION</text>
+<text x="892.00" y="34.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">TR-2021-072  ·  2020-02</text>
+<line x1="28.00" y1="42.00" x2="892.00" y2="42.00" stroke="#1c1c1c" stroke-width="0.6"/>
+<text x="28.00" y="58.00" fill="#1c1c1c" font-size="13" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" font-weight="normal" text-anchor="start">Singular-value spectrum</text>
+<line x1="28.00" y1="544.00" x2="892.00" y2="544.00" stroke="#1c1c1c" stroke-width="0.5"/>
+<text x="28.00" y="558.00" fill="#1c1c1c" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">FIG. 3</text>
+<text x="892.00" y="558.00" fill="#3e4a54" font-size="10" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">COGNITIVE SUBSTRATE LABORATORY  ·  INTERNAL</text>
+<line x1="150.00" y1="455.00" x2="860.00" y2="455.00" stroke="#ddd6c8" stroke-width="0.6"/>
+<text x="142.00" y="458.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0</text>
+<line x1="150.00" y1="376.82" x2="860.00" y2="376.82" stroke="#ddd6c8" stroke-width="0.6"/>
+<text x="142.00" y="379.82" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0.2</text>
+<line x1="150.00" y1="298.64" x2="860.00" y2="298.64" stroke="#ddd6c8" stroke-width="0.6"/>
+<text x="142.00" y="301.64" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0.5</text>
+<line x1="150.00" y1="220.47" x2="860.00" y2="220.47" stroke="#ddd6c8" stroke-width="0.6"/>
+<text x="142.00" y="223.47" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">0.8</text>
+<line x1="150.00" y1="142.29" x2="860.00" y2="142.29" stroke="#ddd6c8" stroke-width="0.6"/>
+<text x="142.00" y="145.29" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="end">1</text>
+<line x1="150.00" y1="86.00" x2="150.00" y2="455.00" stroke="#1c1c1c" stroke-width="1"/>
+<line x1="150.00" y1="455.00" x2="860.00" y2="455.00" stroke="#1c1c1c" stroke-width="1"/>
+<rect x="166.86" y="142.29" width="55.02" height="312.71" fill="#d9d0c2" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="194.38" y="136.29" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">1</text>
+<text x="194.38" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ1</text>
+<rect x="255.61" y="261.12" width="55.02" height="193.88" fill="url(#hatch)" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="283.12" y="255.12" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.62</text>
+<text x="283.12" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ2</text>
+<rect x="344.36" y="326.79" width="55.02" height="128.21" fill="#d9d0c2" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="371.88" y="320.79" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.41</text>
+<text x="371.88" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ3</text>
+<rect x="433.11" y="367.44" width="55.02" height="87.56" fill="url(#hatch)" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="460.62" y="361.44" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.28</text>
+<text x="460.62" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ4</text>
+<rect x="521.86" y="395.58" width="55.02" height="59.42" fill="#d9d0c2" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="549.38" y="389.58" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.19</text>
+<text x="549.38" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ5</text>
+<rect x="610.61" y="417.47" width="55.02" height="37.53" fill="url(#hatch)" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="638.12" y="411.47" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.12</text>
+<text x="638.12" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ6</text>
+<rect x="699.36" y="429.98" width="55.02" height="25.02" fill="#d9d0c2" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="726.88" y="423.98" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.08</text>
+<text x="726.88" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ7</text>
+<rect x="788.11" y="439.36" width="55.02" height="15.64" fill="url(#hatch)" stroke="#1c1c1c" stroke-width="0.9"/>
+<text x="815.62" y="433.36" fill="#1c1c1c" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">0.05</text>
+<text x="815.62" y="471.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="middle">σ8</text>
+<text x="505.00" y="491.00" fill="#1c1c1c" font-size="11" font-family="Liberation Serif, Times New Roman, serif" font-style="normal" font-weight="normal" text-anchor="middle">index</text>
+<text x="18" y="270.50" fill="#1c1c1c" font-size="11" font-family="Liberation Serif, Times New Roman, serif" font-style="italic" text-anchor="middle" transform="rotate(-90 18 270.50)">singular value / σ1</text>
+<text x="150.00" y="78.00" fill="#3e4a54" font-size="9" font-family="Liberation Mono, Courier New, monospace" font-style="normal" font-weight="normal" text-anchor="start">Normalized spectrum.</text>
+</svg>
